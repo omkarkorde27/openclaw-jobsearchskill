@@ -1,0 +1,12 @@
+# Sensitive / runtime files — never commit these
+.env
+*.db
+seen_jobs.db
+last_run.json
+scout.log
+resume.txt
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env.*

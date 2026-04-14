@@ -1,0 +1,52 @@
+Omkar Korade
++1(945)-296-0297 | omkorade@iu.edu | Linkedin | Github | Bloomington, IN
+Education
+Indiana University Bloomington Bloomington, IN
+Master of Science, Data Science; CGPA: 3.73/4 Aug. 2024 – May 2026
+Vivekanand Education Society’s Institute of Technology Mumbai, India
+Bachelor of Technology, AI & Data Science; CGPA: 8.11/10 Aug. 2020 – May 2024
+Technical Skills
+Languages/Frameworks: Python (PyTorch, TensorFlow, Flask), R, SQL (MySQL, MongoDB), MCP, Google ADK
+Data Engineering: ETL/ELT pipelines, Data Warehousing, Data Quality, Data Architecture, BigQuery, Snowflake
+Technologies: Claude Code, Cursor, Openclaw, AWS (S3, EC2), GCP, MLFlow, AirFlow, BigQuery, Git
+Visualization Tools: Power BI, Tableau, Matplotlib, Seaborn, Plotly, ggplot2, Pandas, NumPy, NLTK, Scikit-learn
+Experience
+Research Assistant Jan. 2026 - Present
+Indiana University Bloomington Bloomington, Indiana
+• Engineered an end-to-end facial analysis pipeline processing 1,200+ images with automated quality filtering and deep
+learning-based feature extraction, achieving a 98% processing success rate while maintaining full IRB compliance.
+• Trained and validated a regression model on facial embeddings (R ²=0.759) that predicted biological aging markers
+beyond chronological age, with statistically significant results across three established aging benchmarks.
+• Ran a systematic facial region analysis to identify which areas of the face contribute most to biological age prediction,
+surfacing insights that varied meaningfully across different aging measures.
+Data Analyst May. 2025 – Present
+University Graduate School Bloomington, Indiana
+• Built retrieval-based AI chatbot for IU graduate schools, integrating a hybrid MCP server agent to supplement knowledge
+source responses with structured program links and contact info, cutting student information lookup time by 60%.
+• Created keyword-based school routing logic with regex word-boundary matching to eliminate false substring matches on
+acronyms, improving query precision across ambiguous multi-school prompts.
+• Hardened a PHP/MySQL admin portal managing PhD defense listings by eliminating SQL injection vulnerabilities,
+enforcing CAS authentication restricted to authorized IU Network IDs.
+Machine Learning Intern Dec. 2023 – Feb. 2024
+Trivia Softwares Mumbai, India
+• Improved ML model prediction speed by 11% through advanced regression, classification, and clustering techniques,
+demonstrating problem-solving in large-scale dataset environments.
+• Streamlined KPI monitoring by 33% via automated dashboards for 20+ metrics, enabling data-driven decision-making in
+real time.
+Academic Projects
+Alzheimer’s Disease Classification via CNNs | Python, TensorFlow, OpenCV | GitHub Nov. 2025 – Present
+• Developed deep learning pipeline for classifying MRI brain scans into 4 Alzheimer’s stages achieving 67.7% test accuracy
+on OASIS-1 dataset with 20,000 balanced images.
+• Engineered robust data preprocessing pipeline resolving critical data leakage issues through patient-level splitting and
+similarity analysis; implemented strategic undersampling and augmentation to balance dataset from 83% majority class
+to equal 25% distribution.
+• Architected efficient CNN with 3 convolutional blocks, batch normalization, dropout, and L2 regularization, reducing
+parameters by 40% while maintaining performance; integrated learning rate scheduling and early stopping for optimal
+convergence.
+AI Meeting Companion | Python, Whisper API, NLTK | GitHub Mar. 2025 – Jun. 2025
+• Architected a real-time transcription system handling 6+ audio formats with 95.7% accuracy using Whisper API and
+Python audio processing (FFMPEG/pydub)
+• Structured extracted data with Pydantic models and Instructor pattern, achieving 91.2% consistency in action item
+identification
+• Developed hierarchical summarization combining TextRank algorithms and AI-powered abstractive methods, reducing
+information retrieval time by 40% and integrated fallback mechanisms ensuring 100% uptime during API outages
