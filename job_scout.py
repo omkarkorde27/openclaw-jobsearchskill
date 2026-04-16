@@ -22,6 +22,7 @@ import os, re, sys, json, time, sqlite3, logging, argparse, hashlib
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Optional
+from urllib.parse import urlsplit, urlunsplit, unquote
 
 import requests
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -43,9 +44,10 @@ CHAT_ID     = os.getenv("TELEGRAM_CHAT_ID", "")
 CUTOFF_DATE = datetime(2026, 3, 30, tzinfo=timezone.utc)
 
 # ─── Tuning ──────────────────────────────────────────────────────────────────
-MIN_SCORE       = 0.05
-MAX_DIGEST      = 50
-REQUEST_TIMEOUT = 20
+MIN_SCORE          = 0.05
+MAX_DIGEST         = 50
+REQUEST_TIMEOUT    = 20
+IDENTITY_TTL_DAYS  = 30   # fuzzy (title, company) dedup window
 
 # ─── Logging ─────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -56,14 +58,12 @@ logging.basicConfig(
 log = logging.getLogger("scout")
 
 # ═════════════════════════════════════════════════════════════════════════════
-# ATS DOMAINS — no company names, just platforms
+# ATS DOMAINS — platforms still queried via Serper.
+# Tier-1 (Greenhouse/Lever/Ashby/Workday) cut over to native ATS APIs in
+# Phase 3 and are fetched by fetch_all_ats() instead.
 # ═════════════════════════════════════════════════════════════════════════════
 
 ATS_DOMAINS = [
-    {"domain": "boards.greenhouse.io",       "platform": "Greenhouse"},
-    {"domain": "jobs.lever.co",              "platform": "Lever"},
-    {"domain": "jobs.ashbyhq.com",           "platform": "Ashby"},
-    {"domain": "myworkdayjobs.com",          "platform": "Workday"},
     {"domain": "jobs.smartrecruiters.com",   "platform": "SmartRecruiters"},
     {"domain": "jobs.jobvite.com",           "platform": "Jobvite"},
     {"domain": "applytojob.com",             "platform": "JazzHR"},
@@ -71,7 +71,7 @@ ATS_DOMAINS = [
     {"domain": "icims.com",                  "platform": "iCIMS"},
     {"domain": "workforcenow.adp.com",       "platform": "ADP"},
     {"domain": "breezy.hr",                  "platform": "Breezy"},
-    {"domain": "workable.com",                "platform": "Workable"}
+    {"domain": "workable.com",               "platform": "Workable"},
 ]
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -138,31 +138,85 @@ def init_db(reset: bool = False) -> sqlite3.Connection:
     conn = sqlite3.connect(DB_PATH)
     conn.execute("""
         CREATE TABLE IF NOT EXISTS seen_jobs (
-            job_id    TEXT PRIMARY KEY,
-            title     TEXT,
-            company   TEXT,
-            url       TEXT,
-            publisher TEXT,
-            posted_ts INTEGER,
-            seen_at   TEXT
+            job_id       TEXT PRIMARY KEY,
+            title        TEXT,
+            company      TEXT,
+            url          TEXT,
+            publisher    TEXT,
+            posted_ts    INTEGER,
+            seen_at      TEXT,
+            identity_key TEXT
+        )
+    """)
+    # Migrate pre-existing DBs that predate identity_key
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(seen_jobs)")}
+    if "identity_key" not in cols:
+        conn.execute("ALTER TABLE seen_jobs ADD COLUMN identity_key TEXT")
+        rows = list(conn.execute("SELECT job_id, title, company, url FROM seen_jobs"))
+        updated = 0
+        for job_id, title, company, url in rows:
+            # Re-derive Workday company from the URL — historical rows stored
+            # "Myworkdayjobs.com" because of the title-parser bug.
+            if url:
+                m = re.match(
+                    r"^https?://([a-z0-9][a-z0-9\-]*)\.wd\d+\.myworkdayjobs\.com",
+                    url.lower(),
+                )
+                if m:
+                    company = m.group(1)
+            key = identity_key_for({"title": title or "", "company": company or ""})
+            if key:
+                conn.execute(
+                    "UPDATE seen_jobs SET identity_key=? WHERE job_id=?",
+                    (key, job_id),
+                )
+                updated += 1
+        log.info(f"DB migration: added identity_key, backfilled {updated}/{len(rows)} rows")
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_identity_key ON seen_jobs(identity_key)")
+    # ── companies table (Phase 1 of ATS-native polling) ─────────────────────
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS companies (
+            platform      TEXT NOT NULL,
+            slug          TEXT NOT NULL,
+            extra         TEXT,                 -- JSON; e.g. Workday board
+            discovered_at TEXT,
+            last_polled   TEXT,
+            last_status   TEXT,                 -- 'ok' | 'http_404' | 'no_jobs' | 'rate_limited' | 'gone'
+            fail_count    INTEGER DEFAULT 0,
+            PRIMARY KEY (platform, slug)
         )
     """)
     conn.commit()
     return conn
 
-def is_new(conn: sqlite3.Connection, job_id: str) -> bool:
-    return conn.execute(
-        "SELECT 1 FROM seen_jobs WHERE job_id=?", (job_id,)
-    ).fetchone() is None
+def is_new(conn: sqlite3.Connection, job: dict) -> bool:
+    """New if neither the URL hash nor the (company, title) identity key
+    has been seen in the last IDENTITY_TTL_DAYS days."""
+    if conn.execute(
+        "SELECT 1 FROM seen_jobs WHERE job_id=?", (job["id"],)
+    ).fetchone() is not None:
+        return False
+    key = identity_key_for(job)
+    if not key:
+        return True
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=IDENTITY_TTL_DAYS)).isoformat()
+    row = conn.execute(
+        "SELECT 1 FROM seen_jobs WHERE identity_key=? AND seen_at>=? LIMIT 1",
+        (key, cutoff),
+    ).fetchone()
+    return row is None
 
 def mark_seen(conn: sqlite3.Connection, job: dict):
     conn.execute(
-        "INSERT OR IGNORE INTO seen_jobs VALUES(?,?,?,?,?,?,?)",
+        """INSERT OR IGNORE INTO seen_jobs
+             (job_id, title, company, url, publisher, posted_ts, seen_at, identity_key)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
         (
             job["id"], job["title"], job["company"],
             job["url"], job.get("publisher", ""),
             job.get("posted_ts", 0),
             datetime.now(timezone.utc).isoformat(),
+            identity_key_for(job),
         ),
     )
     conn.commit()
@@ -262,12 +316,69 @@ def fetch_serper(domain: str, platform: str) -> list[dict]:
         log.info(f"  Serper {platform} ({domain}): {len(all_results)} total results")
     return all_results
 
+_URL_TRAIL_SUFFIXES = ("/apply", "/job")
+
 def _canonical_url(url: str) -> str:
-    """Strip query/fragment/trailing slash so the same job collapses to one ID."""
+    """Strip query/fragment, decode %-escapes, lowercase host, and remove
+    trailing ATS navigation segments (/apply, /job) so URL variants of the
+    same job collapse to one ID."""
     if not url:
         return url
-    u = url.split("#", 1)[0].split("?", 1)[0]
-    return u.rstrip("/")
+    url = unquote(url)
+    url = url.split("#", 1)[0].split("?", 1)[0]
+    try:
+        parts = urlsplit(url)
+        scheme = (parts.scheme or "https").lower()
+        host   = parts.netloc.lower()
+        path   = parts.path
+    except Exception:
+        return url.rstrip("/")
+    # Repeatedly strip trailing nav segments (handles /apply/, /apply, /job/)
+    while True:
+        orig = path
+        for suffix in _URL_TRAIL_SUFFIXES:
+            if path.endswith(suffix):
+                path = path[: -len(suffix)]
+                break
+            if path.endswith(suffix + "/"):
+                path = path[: -len(suffix) - 1]
+                break
+        if path == orig:
+            break
+    path = path.rstrip("/")
+    return urlunsplit((scheme, host, path, "", ""))
+
+# ─── Identity key (title + company fuzzy dedup) ─────────────────────────────
+_TITLE_CUT_RE = re.compile(
+    r'\s*(?:[|@(\[]|\s-\s|\s–\s|\s—\s|\sin\s|\sat\s).*$',
+    re.I,
+)
+_PUNCT_RE     = re.compile(r'[^\w\s]')
+_WS_RE        = re.compile(r'\s+')
+_COMPANY_SUFFIX_RE = re.compile(r'\s+(inc|llc|ltd|co|corp|corporation|limited)$', re.I)
+
+def _normalize_title(s: str) -> str:
+    s = (s or "").lower().strip()
+    s = _TITLE_CUT_RE.sub("", s)     # drop everything after separators
+    s = _PUNCT_RE.sub(" ", s)
+    s = _WS_RE.sub(" ", s).strip()
+    return s
+
+def _normalize_company(s: str) -> str:
+    s = (s or "").lower().strip()
+    s = _PUNCT_RE.sub(" ", s)
+    s = _WS_RE.sub(" ", s).strip()
+    s = _COMPANY_SUFFIX_RE.sub("", s)
+    return s
+
+def identity_key_for(job: dict) -> Optional[str]:
+    """Stable key from (company, title). Returns None if either is missing —
+    the caller should then fall back to URL-hash dedup only."""
+    company = _normalize_company(job.get("company", ""))
+    title   = _normalize_title(job.get("title", ""))
+    if not company or not title:
+        return None
+    return hashlib.sha1(f"{company}|{title}".encode()).hexdigest()[:16]
 
 def parse_serper_result(r: dict, platform: str) -> Optional[dict]:
     """Convert a Serper organic result to standardized job dict."""
@@ -300,6 +411,17 @@ def parse_serper_result(r: dict, platform: str) -> Optional[dict]:
         job_title = parts[0].strip()
         if len(parts) > 1:
             company = parts[1].strip()
+
+    # Workday title patterns don't include the company — pull it from the
+    # subdomain instead: <company-slug>.wd<N>.myworkdayjobs.com.
+    if platform == "Workday":
+        try:
+            host = urlsplit(url).netloc.lower()
+            m = re.match(r"^([a-z0-9][a-z0-9\-]*)\.wd\d+\.myworkdayjobs\.com", host)
+            if m:
+                company = m.group(1)
+        except Exception:
+            pass
 
     # Stable job ID from URL
     job_id = f"sp-{hashlib.md5(url.encode()).hexdigest()[:16]}"
@@ -474,7 +596,8 @@ def passes_location(job: dict) -> bool:
       • REJECT if no location signal at all — a legit US job should carry
         some US marker in its title/snippet/url given the query clause.
     """
-    text = _lc(job["title"] + " " + job["description"] + " " + job["url"])
+    text = _lc(job["title"] + " " + job.get("location", "") + " " +
+               job["description"] + " " + job["url"])
     if has_us_signal(text):
         return True
     if NON_US_PATTERN.search(text):
@@ -679,10 +802,83 @@ def build_digest(jobs: list[dict], since: datetime) -> list[str]:
     return chunks
 
 # ═════════════════════════════════════════════════════════════════════════════
+# PHASE 2 SHADOW COMPARISON — runs ATS-API path alongside Serper, logs only
+# ═════════════════════════════════════════════════════════════════════════════
+
+def shadow_compare(conn: sqlite3.Connection, score_fn, serper_matches: list[dict]):
+    """Run the Tier-1 ATS-API fetch in parallel with Serper. Apply the same
+    static filters, restrict to the last 24h, and log how the two feeds compare.
+    Does NOT write to seen_jobs and does NOT send to Telegram."""
+    from ats.fetch import fetch_all_ats, job_to_dict
+
+    log.info("─" * 28)
+    log.info("[shadow] Phase 2 ATS-API parallel fetch")
+    try:
+        ats_jobs = fetch_all_ats(conn)
+    except Exception as e:
+        log.warning(f"[shadow] ATS fetch failed entirely: {e}")
+        return
+
+    cutoff_24h = (datetime.now(timezone.utc) - timedelta(hours=24)).timestamp()
+    rejects = {"date": 0, "title": 0, "location": 0, "sponsor": 0, "exp": 0, "score": 0, "no_ts": 0}
+    ats_passed: list[dict] = []
+    for j in ats_jobs:
+        d = job_to_dict(j)
+        # Strict 24h filter — treat unknown timestamp as "old" for shadow mode
+        if not d["posted_ts"]:
+            rejects["no_ts"] += 1
+            continue
+        if d["posted_ts"] < cutoff_24h:
+            rejects["date"] += 1
+            continue
+        if not passes_title(d["title"]):
+            rejects["title"] += 1
+            continue
+        if not passes_location(d):
+            rejects["location"] += 1
+            continue
+        if not passes_sponsorship(d["description"]):
+            rejects["sponsor"] += 1
+            continue
+        if not passes_experience(d):
+            rejects["exp"] += 1
+            continue
+        s = score_fn(d["title"] + " " + d["description"])
+        if s < MIN_SCORE:
+            rejects["score"] += 1
+            continue
+        d["score"] = s
+        ats_passed.append(d)
+
+    serper_urls = {_canonical_url(j["url"]) for j in serper_matches}
+    ats_urls    = {_canonical_url(j["url"]) for j in ats_passed}
+    intersect   = serper_urls & ats_urls
+    ats_only    = ats_urls    - serper_urls
+    serper_only = serper_urls - ats_urls
+
+    log.info(f"[shadow] ATS rejects — date:{rejects['date']} title:{rejects['title']} "
+             f"location:{rejects['location']} sponsor:{rejects['sponsor']} "
+             f"exp:{rejects['exp']} score:{rejects['score']} no_ts:{rejects['no_ts']}")
+    log.info(f"[shadow] ATS-API would-send (24h, all filters): {len(ats_passed)}")
+    log.info(f"[shadow] Serper actually sent:                  {len(serper_matches)}")
+    log.info(f"[shadow]   intersection (both found):           {len(intersect)}")
+    log.info(f"[shadow]   ATS-only (Serper missed):            {len(ats_only)}")
+    log.info(f"[shadow]   Serper-only (ATS missed):            {len(serper_only)}")
+
+    if ats_passed:
+        log.info("[shadow] Top 5 ATS-API matches by score:")
+        for d in sorted(ats_passed, key=lambda x: x["score"], reverse=True)[:5]:
+            tag = "BOTH" if _canonical_url(d["url"]) in intersect else "ATS!"
+            age_h = (datetime.now(timezone.utc).timestamp() - d["posted_ts"]) / 3600
+            log.info(f"  [{tag}] {int(d['score']*100):>3}% {d['publisher']:>10} | "
+                     f"{d['company'][:18]:<18} | {age_h:>4.1f}h | {d['title'][:55]}")
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 # MAIN
 # ═════════════════════════════════════════════════════════════════════════════
 
-def run(dry_run: bool = False, reset: bool = False):
+def run(dry_run: bool = False, reset: bool = False, shadow: bool = False):
     log.info("═══ Job Scout v5 starting ═══")
 
     if not SERPER_KEY:
@@ -703,8 +899,20 @@ def run(dry_run: bool = False, reset: bool = False):
     log.info(f"DB contains {db_count_before} seen jobs")
     log.info(f"Fetching jobs posted since: {since.strftime('%Y-%m-%d %H:%M UTC')}")
 
-    # ── Fetch from all ATS domains via Serper ──
-    all_jobs = fetch_all_serper()
+    # ── Tier-1: native ATS APIs (Greenhouse/Lever/Ashby/Workday) ──
+    from ats.fetch import fetch_all_ats, job_to_dict
+    try:
+        ats_raw = fetch_all_ats(conn)
+    except Exception as e:
+        log.error(f"[ats] fetch failed entirely: {e}")
+        ats_raw = []
+    ats_jobs = [job_to_dict(j) for j in ats_raw]
+
+    # ── Tier-2/3: Serper for platforms without a cheap native API ──
+    serper_jobs = fetch_all_serper()
+    log.info(f"Feed sizes — ats:{len(ats_jobs)} serper:{len(serper_jobs)}")
+
+    all_jobs = ats_jobs + serper_jobs
     log.info(f"Total jobs before filtering: {len(all_jobs)}")
 
     # ── Dedup by URL-based job_id ──
@@ -742,7 +950,7 @@ def run(dry_run: bool = False, reset: bool = False):
             stats["exp"] += 1
             continue
 
-        if not is_new(conn, job["id"]):
+        if not is_new(conn, job):
             stats["seen"] += 1
             continue
 
@@ -782,11 +990,19 @@ def run(dry_run: bool = False, reset: bool = False):
     else:
         log.info("(dry-run) skipping state save and DB writes")
 
+    # ── Optional: retained shadow_compare() for ad-hoc parity debugging only ──
+    if shadow:
+        try:
+            shadow_compare(conn, score_fn, new_matches)
+        except Exception as e:
+            log.warning(f"[shadow] comparison failed: {e}")
+
     db_count_after = conn.execute("SELECT COUNT(*) FROM seen_jobs").fetchone()[0]
     conn.close()
 
     log.info("═══ Run Summary ═══")
-    log.info(f"  Serper raw results:    {len(all_jobs)}")
+    log.info(f"  Tier-1 ATS raw:        {len(ats_jobs)}")
+    log.info(f"  Serper raw:            {len(serper_jobs)}")
     log.info(f"  After URL dedup:       {len(unique_jobs)}")
     log.info(f"  Dropped — date:        {stats['date']}")
     log.info(f"  Dropped — title:       {stats['title']}")
@@ -808,10 +1024,12 @@ if __name__ == "__main__":
                         help="Wipe seen-jobs DB, reset to hard cutoff date (2026-03-30)")
     parser.add_argument("--debug", action="store_true",
                         help="Verbose logging: print exact query strings and filter rejections")
+    parser.add_argument("--shadow", action="store_true",
+                        help="Re-run the ATS pipeline in shadow mode for ad-hoc parity debugging")
     args = parser.parse_args()
     if args.debug:
         log.setLevel(logging.DEBUG)
         for h in log.handlers:
             h.setLevel(logging.DEBUG)
         logging.getLogger().setLevel(logging.DEBUG)
-    run(dry_run=args.dry_run, reset=args.reset)
+    run(dry_run=args.dry_run, reset=args.reset, shadow=args.shadow)

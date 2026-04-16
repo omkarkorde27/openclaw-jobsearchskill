@@ -1828,3 +1828,2118 @@
 2026-04-14 14:45:25,571 INFO       Sent to Telegram:      50
 2026-04-14 14:45:25,571 INFO       DB size (before/after): 0 / 56
 2026-04-14 14:45:25,571 INFO     ═══ Done ═══
+2026-04-15 16:54:05,460 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:54:05,460 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:54:05,463 INFO     Resume loaded (4024 chars)
+2026-04-15 16:54:05,463 INFO     Resume loaded (4024 chars)
+2026-04-15 16:54:05,471 INFO     DB contains 56 seen jobs
+2026-04-15 16:54:05,471 INFO     DB contains 56 seen jobs
+2026-04-15 16:54:05,471 INFO     Fetching jobs posted since: 2026-04-14 14:45 UTC
+2026-04-15 16:54:05,471 INFO     Fetching jobs posted since: 2026-04-14 14:45 UTC
+2026-04-15 16:54:05,471 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:54:05,471 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:54:12,101 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:54:12,101 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:54:19,803 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:54:19,803 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:54:27,720 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:54:27,720 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:54:36,222 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:54:36,222 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:54:43,688 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:54:43,688 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:54:52,430 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:54:52,430 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:55:00,731 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:55:00,731 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:55:03,421 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:55:03,421 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:55:03,422 INFO     Resume loaded (4024 chars)
+2026-04-15 16:55:03,422 INFO     Resume loaded (4024 chars)
+2026-04-15 16:55:03,427 INFO     DB contains 56 seen jobs
+2026-04-15 16:55:03,427 INFO     DB contains 56 seen jobs
+2026-04-15 16:55:03,427 INFO     Fetching jobs posted since: 2026-04-14 14:45 UTC
+2026-04-15 16:55:03,427 INFO     Fetching jobs posted since: 2026-04-14 14:45 UTC
+2026-04-15 16:55:03,427 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:55:03,427 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:55:08,615 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:55:08,615 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:55:09,164 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:55:09,164 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:55:16,498 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:55:16,498 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:55:16,557 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:55:16,557 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:55:23,812 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:55:23,812 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:55:24,595 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:55:24,595 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:55:31,589 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:55:31,589 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:55:32,489 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:55:32,489 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:55:39,720 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:55:39,720 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:55:40,482 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:55:40,482 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:55:41,483 INFO     [Serper] Total parsed: 546
+2026-04-15 16:55:41,483 INFO     [Serper] Total parsed: 546
+2026-04-15 16:55:41,484 INFO     Total jobs before filtering: 546
+2026-04-15 16:55:41,484 INFO     Total jobs before filtering: 546
+2026-04-15 16:55:41,484 INFO     After dedup: 493 unique (53 collisions)
+2026-04-15 16:55:41,484 INFO     After dedup: 493 unique (53 collisions)
+2026-04-15 16:55:41,610 INFO     Filter stats — date:0 title:227 location:198 sponsor:0 exp:0 seen:40 score:3
+2026-04-15 16:55:41,610 INFO     Filter stats — date:0 title:227 location:198 sponsor:0 exp:0 seen:40 score:3
+2026-04-15 16:55:41,610 INFO     New matches to send: 25
+2026-04-15 16:55:41,610 INFO     New matches to send: 25
+2026-04-15 16:55:43,427 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:55:43,427 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:55:43,428 INFO     ═══ Run Summary ═══
+2026-04-15 16:55:43,428 INFO     ═══ Run Summary ═══
+2026-04-15 16:55:43,428 INFO       Serper raw results:    546
+2026-04-15 16:55:43,428 INFO       Serper raw results:    546
+2026-04-15 16:55:43,428 INFO       After URL dedup:       493
+2026-04-15 16:55:43,428 INFO       After URL dedup:       493
+2026-04-15 16:55:43,428 INFO       Dropped — date:        0
+2026-04-15 16:55:43,428 INFO       Dropped — date:        0
+2026-04-15 16:55:43,428 INFO       Dropped — title:       227
+2026-04-15 16:55:43,428 INFO       Dropped — title:       227
+2026-04-15 16:55:43,428 INFO       Dropped — location:    198  (US filter)
+2026-04-15 16:55:43,428 INFO       Dropped — location:    198  (US filter)
+2026-04-15 16:55:43,428 INFO       Dropped — sponsorship: 0
+2026-04-15 16:55:43,428 INFO       Dropped — sponsorship: 0
+2026-04-15 16:55:43,428 INFO       Dropped — experience:  0
+2026-04-15 16:55:43,428 INFO       Dropped — experience:  0
+2026-04-15 16:55:43,428 INFO       Dropped — seen in DB:  40
+2026-04-15 16:55:43,428 INFO       Dropped — seen in DB:  40
+2026-04-15 16:55:43,428 INFO       Dropped — low score:   3
+2026-04-15 16:55:43,428 INFO       Dropped — low score:   3
+2026-04-15 16:55:43,428 INFO       Sent to Telegram:      25
+2026-04-15 16:55:43,428 INFO       Sent to Telegram:      25
+2026-04-15 16:55:43,428 INFO       DB size (before/after): 56 / 81
+2026-04-15 16:55:43,428 INFO       DB size (before/after): 56 / 81
+2026-04-15 16:55:43,428 INFO     ═══ Done ═══
+2026-04-15 16:55:43,428 INFO     ═══ Done ═══
+2026-04-15 16:55:47,358 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:55:47,358 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:55:55,263 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:55:55,263 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:56:02,621 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:56:02,621 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:56:02,768 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:56:02,768 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:56:02,769 INFO     Resume loaded (4024 chars)
+2026-04-15 16:56:02,769 INFO     Resume loaded (4024 chars)
+2026-04-15 16:56:02,773 INFO     DB contains 81 seen jobs
+2026-04-15 16:56:02,773 INFO     DB contains 81 seen jobs
+2026-04-15 16:56:02,773 INFO     Fetching jobs posted since: 2026-04-15 16:55 UTC
+2026-04-15 16:56:02,773 INFO     Fetching jobs posted since: 2026-04-15 16:55 UTC
+2026-04-15 16:56:02,773 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:56:02,773 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:56:09,221 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:56:09,221 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:56:10,085 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:56:10,085 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:56:17,069 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:56:17,069 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:56:17,666 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:56:17,666 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:56:24,689 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:56:24,689 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:56:25,257 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:56:25,257 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:56:32,671 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:56:32,671 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:56:33,025 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:56:33,025 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:56:33,673 INFO     [Serper] Total parsed: 546
+2026-04-15 16:56:33,673 INFO     [Serper] Total parsed: 546
+2026-04-15 16:56:33,673 INFO     Total jobs before filtering: 546
+2026-04-15 16:56:33,673 INFO     Total jobs before filtering: 546
+2026-04-15 16:56:33,673 INFO     After dedup: 489 unique (57 collisions)
+2026-04-15 16:56:33,673 INFO     After dedup: 489 unique (57 collisions)
+2026-04-15 16:56:33,728 INFO     Filter stats — date:0 title:224 location:199 sponsor:0 exp:0 seen:54 score:3
+2026-04-15 16:56:33,728 INFO     Filter stats — date:0 title:224 location:199 sponsor:0 exp:0 seen:54 score:3
+2026-04-15 16:56:33,728 INFO     New matches to send: 9
+2026-04-15 16:56:33,728 INFO     New matches to send: 9
+2026-04-15 16:56:34,634 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:56:34,634 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:56:34,635 INFO     ═══ Run Summary ═══
+2026-04-15 16:56:34,635 INFO     ═══ Run Summary ═══
+2026-04-15 16:56:34,635 INFO       Serper raw results:    546
+2026-04-15 16:56:34,635 INFO       Serper raw results:    546
+2026-04-15 16:56:34,635 INFO       After URL dedup:       489
+2026-04-15 16:56:34,635 INFO       After URL dedup:       489
+2026-04-15 16:56:34,635 INFO       Dropped — date:        0
+2026-04-15 16:56:34,635 INFO       Dropped — date:        0
+2026-04-15 16:56:34,635 INFO       Dropped — title:       224
+2026-04-15 16:56:34,635 INFO       Dropped — title:       224
+2026-04-15 16:56:34,635 INFO       Dropped — location:    199  (US filter)
+2026-04-15 16:56:34,635 INFO       Dropped — location:    199  (US filter)
+2026-04-15 16:56:34,635 INFO       Dropped — sponsorship: 0
+2026-04-15 16:56:34,635 INFO       Dropped — sponsorship: 0
+2026-04-15 16:56:34,635 INFO       Dropped — experience:  0
+2026-04-15 16:56:34,635 INFO       Dropped — experience:  0
+2026-04-15 16:56:34,635 INFO       Dropped — seen in DB:  54
+2026-04-15 16:56:34,635 INFO       Dropped — seen in DB:  54
+2026-04-15 16:56:34,635 INFO       Dropped — low score:   3
+2026-04-15 16:56:34,635 INFO       Dropped — low score:   3
+2026-04-15 16:56:34,635 INFO       Sent to Telegram:      9
+2026-04-15 16:56:34,635 INFO       Sent to Telegram:      9
+2026-04-15 16:56:34,636 INFO       DB size (before/after): 56 / 90
+2026-04-15 16:56:34,636 INFO       DB size (before/after): 56 / 90
+2026-04-15 16:56:34,636 INFO     ═══ Done ═══
+2026-04-15 16:56:34,636 INFO     ═══ Done ═══
+2026-04-15 16:56:40,193 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:56:40,193 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:56:47,612 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:56:47,612 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:56:55,122 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:56:55,122 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:57:02,413 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:57:02,413 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:57:03,268 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:57:03,268 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:57:03,269 INFO     Resume loaded (4024 chars)
+2026-04-15 16:57:03,269 INFO     Resume loaded (4024 chars)
+2026-04-15 16:57:03,273 INFO     DB contains 90 seen jobs
+2026-04-15 16:57:03,273 INFO     DB contains 90 seen jobs
+2026-04-15 16:57:03,274 INFO     Fetching jobs posted since: 2026-04-15 16:56 UTC
+2026-04-15 16:57:03,274 INFO     Fetching jobs posted since: 2026-04-15 16:56 UTC
+2026-04-15 16:57:03,274 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:57:03,274 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:57:09,996 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:57:09,996 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:57:11,457 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:57:11,457 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:57:16,702 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:57:16,702 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:57:18,447 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:57:18,447 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:57:23,854 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:57:23,854 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:57:25,419 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:57:25,419 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:57:30,680 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:57:30,680 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:57:32,726 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:57:32,726 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:57:33,727 INFO     [Serper] Total parsed: 546
+2026-04-15 16:57:33,727 INFO     [Serper] Total parsed: 546
+2026-04-15 16:57:33,728 INFO     Total jobs before filtering: 546
+2026-04-15 16:57:33,728 INFO     Total jobs before filtering: 546
+2026-04-15 16:57:33,728 INFO     After dedup: 490 unique (56 collisions)
+2026-04-15 16:57:33,728 INFO     After dedup: 490 unique (56 collisions)
+2026-04-15 16:57:33,767 INFO     Filter stats — date:0 title:218 location:211 sponsor:0 exp:0 seen:55 score:3
+2026-04-15 16:57:33,767 INFO     Filter stats — date:0 title:218 location:211 sponsor:0 exp:0 seen:55 score:3
+2026-04-15 16:57:33,767 INFO     New matches to send: 3
+2026-04-15 16:57:33,767 INFO     New matches to send: 3
+2026-04-15 16:57:34,678 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:57:34,678 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:57:34,679 INFO     ═══ Run Summary ═══
+2026-04-15 16:57:34,679 INFO     ═══ Run Summary ═══
+2026-04-15 16:57:34,679 INFO       Serper raw results:    546
+2026-04-15 16:57:34,679 INFO       Serper raw results:    546
+2026-04-15 16:57:34,679 INFO       After URL dedup:       490
+2026-04-15 16:57:34,679 INFO       After URL dedup:       490
+2026-04-15 16:57:34,679 INFO       Dropped — date:        0
+2026-04-15 16:57:34,679 INFO       Dropped — date:        0
+2026-04-15 16:57:34,679 INFO       Dropped — title:       218
+2026-04-15 16:57:34,679 INFO       Dropped — title:       218
+2026-04-15 16:57:34,679 INFO       Dropped — location:    211  (US filter)
+2026-04-15 16:57:34,679 INFO       Dropped — location:    211  (US filter)
+2026-04-15 16:57:34,679 INFO       Dropped — sponsorship: 0
+2026-04-15 16:57:34,679 INFO       Dropped — sponsorship: 0
+2026-04-15 16:57:34,679 INFO       Dropped — experience:  0
+2026-04-15 16:57:34,679 INFO       Dropped — experience:  0
+2026-04-15 16:57:34,679 INFO       Dropped — seen in DB:  55
+2026-04-15 16:57:34,679 INFO       Dropped — seen in DB:  55
+2026-04-15 16:57:34,679 INFO       Dropped — low score:   3
+2026-04-15 16:57:34,679 INFO       Dropped — low score:   3
+2026-04-15 16:57:34,679 INFO       Sent to Telegram:      3
+2026-04-15 16:57:34,679 INFO       Sent to Telegram:      3
+2026-04-15 16:57:34,679 INFO       DB size (before/after): 81 / 93
+2026-04-15 16:57:34,679 INFO       DB size (before/after): 81 / 93
+2026-04-15 16:57:34,679 INFO     ═══ Done ═══
+2026-04-15 16:57:34,679 INFO     ═══ Done ═══
+2026-04-15 16:57:37,842 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:57:37,842 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:57:45,279 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:57:45,279 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:57:52,248 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:57:52,248 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:58:00,698 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:58:00,698 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:58:03,212 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:58:03,212 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 16:58:03,213 INFO     Resume loaded (4024 chars)
+2026-04-15 16:58:03,213 INFO     Resume loaded (4024 chars)
+2026-04-15 16:58:03,217 INFO     DB contains 93 seen jobs
+2026-04-15 16:58:03,217 INFO     DB contains 93 seen jobs
+2026-04-15 16:58:03,218 INFO     Fetching jobs posted since: 2026-04-15 16:57 UTC
+2026-04-15 16:58:03,218 INFO     Fetching jobs posted since: 2026-04-15 16:57 UTC
+2026-04-15 16:58:03,218 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:58:03,218 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 16:58:07,919 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:58:07,919 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:58:09,458 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:58:09,458 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 16:58:15,052 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:58:15,052 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:58:16,366 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:58:16,366 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 16:58:22,558 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:58:22,558 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:58:23,627 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:58:23,627 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 16:58:29,314 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:58:29,314 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:58:30,315 INFO     [Serper] Total parsed: 546
+2026-04-15 16:58:30,315 INFO     [Serper] Total parsed: 546
+2026-04-15 16:58:30,316 INFO     Total jobs before filtering: 546
+2026-04-15 16:58:30,316 INFO     Total jobs before filtering: 546
+2026-04-15 16:58:30,316 INFO     After dedup: 486 unique (60 collisions)
+2026-04-15 16:58:30,316 INFO     After dedup: 486 unique (60 collisions)
+2026-04-15 16:58:30,347 INFO     Filter stats — date:0 title:222 location:199 sponsor:0 exp:0 seen:60 score:3
+2026-04-15 16:58:30,347 INFO     Filter stats — date:0 title:222 location:199 sponsor:0 exp:0 seen:60 score:3
+2026-04-15 16:58:30,347 INFO     New matches to send: 2
+2026-04-15 16:58:30,347 INFO     New matches to send: 2
+2026-04-15 16:58:31,244 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:58:31,244 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:58:31,244 INFO     ═══ Run Summary ═══
+2026-04-15 16:58:31,244 INFO     ═══ Run Summary ═══
+2026-04-15 16:58:31,244 INFO       Serper raw results:    546
+2026-04-15 16:58:31,244 INFO       Serper raw results:    546
+2026-04-15 16:58:31,244 INFO       After URL dedup:       486
+2026-04-15 16:58:31,244 INFO       After URL dedup:       486
+2026-04-15 16:58:31,245 INFO       Dropped — date:        0
+2026-04-15 16:58:31,245 INFO       Dropped — date:        0
+2026-04-15 16:58:31,245 INFO       Dropped — title:       222
+2026-04-15 16:58:31,245 INFO       Dropped — title:       222
+2026-04-15 16:58:31,245 INFO       Dropped — location:    199  (US filter)
+2026-04-15 16:58:31,245 INFO       Dropped — location:    199  (US filter)
+2026-04-15 16:58:31,245 INFO       Dropped — sponsorship: 0
+2026-04-15 16:58:31,245 INFO       Dropped — sponsorship: 0
+2026-04-15 16:58:31,245 INFO       Dropped — experience:  0
+2026-04-15 16:58:31,245 INFO       Dropped — experience:  0
+2026-04-15 16:58:31,245 INFO       Dropped — seen in DB:  60
+2026-04-15 16:58:31,245 INFO       Dropped — seen in DB:  60
+2026-04-15 16:58:31,245 INFO       Dropped — low score:   3
+2026-04-15 16:58:31,245 INFO       Dropped — low score:   3
+2026-04-15 16:58:31,245 INFO       Sent to Telegram:      2
+2026-04-15 16:58:31,245 INFO       Sent to Telegram:      2
+2026-04-15 16:58:31,245 INFO       DB size (before/after): 90 / 95
+2026-04-15 16:58:31,245 INFO       DB size (before/after): 90 / 95
+2026-04-15 16:58:31,245 INFO     ═══ Done ═══
+2026-04-15 16:58:31,245 INFO     ═══ Done ═══
+2026-04-15 16:58:31,253 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:58:31,253 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 16:58:38,358 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:58:38,358 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 16:58:45,481 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:58:45,481 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 16:58:52,479 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:58:52,479 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 16:58:59,611 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:58:59,611 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 16:59:07,576 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:59:07,576 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 16:59:14,566 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:59:14,566 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 16:59:22,115 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:59:22,115 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 16:59:29,474 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:59:29,474 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 16:59:30,475 INFO     [Serper] Total parsed: 546
+2026-04-15 16:59:30,475 INFO     [Serper] Total parsed: 546
+2026-04-15 16:59:30,475 INFO     Total jobs before filtering: 546
+2026-04-15 16:59:30,475 INFO     Total jobs before filtering: 546
+2026-04-15 16:59:30,476 INFO     After dedup: 490 unique (56 collisions)
+2026-04-15 16:59:30,476 INFO     After dedup: 490 unique (56 collisions)
+2026-04-15 16:59:30,517 INFO     Filter stats — date:0 title:219 location:204 sponsor:0 exp:1 seen:58 score:3
+2026-04-15 16:59:30,517 INFO     Filter stats — date:0 title:219 location:204 sponsor:0 exp:1 seen:58 score:3
+2026-04-15 16:59:30,517 INFO     New matches to send: 5
+2026-04-15 16:59:30,517 INFO     New matches to send: 5
+2026-04-15 16:59:31,420 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:59:31,420 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 16:59:31,420 INFO     ═══ Run Summary ═══
+2026-04-15 16:59:31,420 INFO     ═══ Run Summary ═══
+2026-04-15 16:59:31,420 INFO       Serper raw results:    546
+2026-04-15 16:59:31,420 INFO       Serper raw results:    546
+2026-04-15 16:59:31,420 INFO       After URL dedup:       490
+2026-04-15 16:59:31,420 INFO       After URL dedup:       490
+2026-04-15 16:59:31,420 INFO       Dropped — date:        0
+2026-04-15 16:59:31,420 INFO       Dropped — date:        0
+2026-04-15 16:59:31,420 INFO       Dropped — title:       219
+2026-04-15 16:59:31,420 INFO       Dropped — title:       219
+2026-04-15 16:59:31,420 INFO       Dropped — location:    204  (US filter)
+2026-04-15 16:59:31,420 INFO       Dropped — location:    204  (US filter)
+2026-04-15 16:59:31,420 INFO       Dropped — sponsorship: 0
+2026-04-15 16:59:31,420 INFO       Dropped — sponsorship: 0
+2026-04-15 16:59:31,420 INFO       Dropped — experience:  1
+2026-04-15 16:59:31,420 INFO       Dropped — experience:  1
+2026-04-15 16:59:31,420 INFO       Dropped — seen in DB:  58
+2026-04-15 16:59:31,420 INFO       Dropped — seen in DB:  58
+2026-04-15 16:59:31,420 INFO       Dropped — low score:   3
+2026-04-15 16:59:31,420 INFO       Dropped — low score:   3
+2026-04-15 16:59:31,420 INFO       Sent to Telegram:      5
+2026-04-15 16:59:31,420 INFO       Sent to Telegram:      5
+2026-04-15 16:59:31,420 INFO       DB size (before/after): 93 / 100
+2026-04-15 16:59:31,420 INFO       DB size (before/after): 93 / 100
+2026-04-15 16:59:31,420 INFO     ═══ Done ═══
+2026-04-15 16:59:31,420 INFO     ═══ Done ═══
+2026-04-15 18:46:04,019 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:46:04,019 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:46:04,021 INFO     Resume loaded (4024 chars)
+2026-04-15 18:46:04,021 INFO     Resume loaded (4024 chars)
+2026-04-15 18:46:04,029 INFO     DB contains 100 seen jobs
+2026-04-15 18:46:04,029 INFO     DB contains 100 seen jobs
+2026-04-15 18:46:04,029 INFO     Fetching jobs posted since: 2026-04-15 16:59 UTC
+2026-04-15 18:46:04,029 INFO     Fetching jobs posted since: 2026-04-15 16:59 UTC
+2026-04-15 18:46:04,029 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:46:04,029 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:46:10,254 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:46:10,254 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:46:17,688 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:46:17,688 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:46:24,695 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:46:24,695 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:46:32,185 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:46:32,185 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:46:39,738 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:46:39,738 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:46:46,883 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:46:46,883 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:46:54,443 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:46:54,443 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:47:01,841 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:47:01,841 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:47:03,526 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:47:03,526 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:47:03,527 INFO     Resume loaded (4024 chars)
+2026-04-15 18:47:03,527 INFO     Resume loaded (4024 chars)
+2026-04-15 18:47:03,530 INFO     DB contains 100 seen jobs
+2026-04-15 18:47:03,530 INFO     DB contains 100 seen jobs
+2026-04-15 18:47:03,530 INFO     Fetching jobs posted since: 2026-04-15 16:59 UTC
+2026-04-15 18:47:03,530 INFO     Fetching jobs posted since: 2026-04-15 16:59 UTC
+2026-04-15 18:47:03,531 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:47:03,531 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:47:09,836 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:47:09,836 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:47:09,947 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:47:09,947 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:47:17,178 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:47:17,178 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:47:17,693 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:47:17,693 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:47:24,240 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:47:24,240 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:47:24,888 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:47:24,888 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:47:31,821 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:47:31,821 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:47:32,046 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:47:32,046 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:47:33,047 INFO     [Serper] Total parsed: 547
+2026-04-15 18:47:33,047 INFO     [Serper] Total parsed: 547
+2026-04-15 18:47:33,048 INFO     Total jobs before filtering: 547
+2026-04-15 18:47:33,048 INFO     Total jobs before filtering: 547
+2026-04-15 18:47:33,048 INFO     After dedup: 490 unique (57 collisions)
+2026-04-15 18:47:33,048 INFO     After dedup: 490 unique (57 collisions)
+2026-04-15 18:47:33,076 INFO     Filter stats — date:0 title:218 location:202 sponsor:0 exp:0 seen:66 score:3
+2026-04-15 18:47:33,076 INFO     Filter stats — date:0 title:218 location:202 sponsor:0 exp:0 seen:66 score:3
+2026-04-15 18:47:33,077 INFO     New matches to send: 1
+2026-04-15 18:47:33,077 INFO     New matches to send: 1
+2026-04-15 18:47:33,988 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:47:33,988 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:47:33,989 INFO     ═══ Run Summary ═══
+2026-04-15 18:47:33,989 INFO     ═══ Run Summary ═══
+2026-04-15 18:47:33,989 INFO       Serper raw results:    547
+2026-04-15 18:47:33,989 INFO       Serper raw results:    547
+2026-04-15 18:47:33,989 INFO       After URL dedup:       490
+2026-04-15 18:47:33,989 INFO       After URL dedup:       490
+2026-04-15 18:47:33,989 INFO       Dropped — date:        0
+2026-04-15 18:47:33,989 INFO       Dropped — date:        0
+2026-04-15 18:47:33,990 INFO       Dropped — title:       218
+2026-04-15 18:47:33,990 INFO       Dropped — title:       218
+2026-04-15 18:47:33,990 INFO       Dropped — location:    202  (US filter)
+2026-04-15 18:47:33,990 INFO       Dropped — location:    202  (US filter)
+2026-04-15 18:47:33,990 INFO       Dropped — sponsorship: 0
+2026-04-15 18:47:33,990 INFO       Dropped — sponsorship: 0
+2026-04-15 18:47:33,990 INFO       Dropped — experience:  0
+2026-04-15 18:47:33,990 INFO       Dropped — experience:  0
+2026-04-15 18:47:33,990 INFO       Dropped — seen in DB:  66
+2026-04-15 18:47:33,990 INFO       Dropped — seen in DB:  66
+2026-04-15 18:47:33,990 INFO       Dropped — low score:   3
+2026-04-15 18:47:33,990 INFO       Dropped — low score:   3
+2026-04-15 18:47:33,990 INFO       Sent to Telegram:      1
+2026-04-15 18:47:33,990 INFO       Sent to Telegram:      1
+2026-04-15 18:47:33,990 INFO       DB size (before/after): 100 / 101
+2026-04-15 18:47:33,990 INFO       DB size (before/after): 100 / 101
+2026-04-15 18:47:33,990 INFO     ═══ Done ═══
+2026-04-15 18:47:33,990 INFO     ═══ Done ═══
+2026-04-15 18:47:39,970 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:47:39,970 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:47:46,904 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:47:46,904 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:47:54,031 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:47:54,031 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:48:01,437 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:48:01,437 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:48:02,733 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:48:02,733 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:48:02,734 INFO     Resume loaded (4024 chars)
+2026-04-15 18:48:02,734 INFO     Resume loaded (4024 chars)
+2026-04-15 18:48:02,737 INFO     DB contains 101 seen jobs
+2026-04-15 18:48:02,737 INFO     DB contains 101 seen jobs
+2026-04-15 18:48:02,738 INFO     Fetching jobs posted since: 2026-04-15 18:47 UTC
+2026-04-15 18:48:02,738 INFO     Fetching jobs posted since: 2026-04-15 18:47 UTC
+2026-04-15 18:48:02,738 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:48:02,738 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:48:08,486 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:48:08,486 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:48:10,334 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:48:10,334 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:48:15,850 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:48:15,850 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:48:17,704 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:48:17,704 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:48:23,328 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:48:23,328 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:48:25,091 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:48:25,091 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:48:30,926 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:48:30,926 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:48:31,927 INFO     [Serper] Total parsed: 547
+2026-04-15 18:48:31,927 INFO     [Serper] Total parsed: 547
+2026-04-15 18:48:31,928 INFO     Total jobs before filtering: 547
+2026-04-15 18:48:31,928 INFO     Total jobs before filtering: 547
+2026-04-15 18:48:31,928 INFO     After dedup: 492 unique (55 collisions)
+2026-04-15 18:48:31,928 INFO     After dedup: 492 unique (55 collisions)
+2026-04-15 18:48:31,970 INFO     Filter stats — date:0 title:228 location:196 sponsor:0 exp:1 seen:59 score:3
+2026-04-15 18:48:31,970 INFO     Filter stats — date:0 title:228 location:196 sponsor:0 exp:1 seen:59 score:3
+2026-04-15 18:48:31,970 INFO     New matches to send: 5
+2026-04-15 18:48:31,970 INFO     New matches to send: 5
+2026-04-15 18:48:32,923 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:48:32,923 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:48:32,923 INFO     ═══ Run Summary ═══
+2026-04-15 18:48:32,923 INFO     ═══ Run Summary ═══
+2026-04-15 18:48:32,923 INFO       Serper raw results:    547
+2026-04-15 18:48:32,923 INFO       Serper raw results:    547
+2026-04-15 18:48:32,924 INFO       After URL dedup:       492
+2026-04-15 18:48:32,924 INFO       After URL dedup:       492
+2026-04-15 18:48:32,924 INFO       Dropped — date:        0
+2026-04-15 18:48:32,924 INFO       Dropped — date:        0
+2026-04-15 18:48:32,924 INFO       Dropped — title:       228
+2026-04-15 18:48:32,924 INFO       Dropped — title:       228
+2026-04-15 18:48:32,924 INFO       Dropped — location:    196  (US filter)
+2026-04-15 18:48:32,924 INFO       Dropped — location:    196  (US filter)
+2026-04-15 18:48:32,924 INFO       Dropped — sponsorship: 0
+2026-04-15 18:48:32,924 INFO       Dropped — sponsorship: 0
+2026-04-15 18:48:32,924 INFO       Dropped — experience:  1
+2026-04-15 18:48:32,924 INFO       Dropped — experience:  1
+2026-04-15 18:48:32,924 INFO       Dropped — seen in DB:  59
+2026-04-15 18:48:32,924 INFO       Dropped — seen in DB:  59
+2026-04-15 18:48:32,924 INFO       Dropped — low score:   3
+2026-04-15 18:48:32,924 INFO       Dropped — low score:   3
+2026-04-15 18:48:32,924 INFO       Sent to Telegram:      5
+2026-04-15 18:48:32,924 INFO       Sent to Telegram:      5
+2026-04-15 18:48:32,924 INFO       DB size (before/after): 100 / 106
+2026-04-15 18:48:32,924 INFO       DB size (before/after): 100 / 106
+2026-04-15 18:48:32,924 INFO     ═══ Done ═══
+2026-04-15 18:48:32,924 INFO     ═══ Done ═══
+2026-04-15 18:48:33,045 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:48:33,045 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:48:39,924 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:48:39,924 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:48:46,975 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:48:46,975 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:48:54,110 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:48:54,110 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:49:01,363 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:49:01,363 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:49:02,444 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:49:02,444 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:49:02,445 INFO     Resume loaded (4024 chars)
+2026-04-15 18:49:02,445 INFO     Resume loaded (4024 chars)
+2026-04-15 18:49:02,448 INFO     DB contains 106 seen jobs
+2026-04-15 18:49:02,448 INFO     DB contains 106 seen jobs
+2026-04-15 18:49:02,449 INFO     Fetching jobs posted since: 2026-04-15 18:48 UTC
+2026-04-15 18:49:02,449 INFO     Fetching jobs posted since: 2026-04-15 18:48 UTC
+2026-04-15 18:49:02,449 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:49:02,449 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:49:08,356 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:49:08,356 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:49:08,666 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:49:08,666 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:49:15,258 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:49:15,258 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:49:15,576 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:49:15,576 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:49:22,453 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:49:22,453 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:49:23,283 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:49:23,283 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:49:29,298 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:49:29,298 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:49:30,041 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:49:30,041 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:49:31,043 INFO     [Serper] Total parsed: 547
+2026-04-15 18:49:31,043 INFO     [Serper] Total parsed: 547
+2026-04-15 18:49:31,043 INFO     Total jobs before filtering: 547
+2026-04-15 18:49:31,043 INFO     Total jobs before filtering: 547
+2026-04-15 18:49:31,044 INFO     After dedup: 491 unique (56 collisions)
+2026-04-15 18:49:31,044 INFO     After dedup: 491 unique (56 collisions)
+2026-04-15 18:49:31,083 INFO     Filter stats — date:0 title:222 location:202 sponsor:0 exp:1 seen:60 score:3
+2026-04-15 18:49:31,083 INFO     Filter stats — date:0 title:222 location:202 sponsor:0 exp:1 seen:60 score:3
+2026-04-15 18:49:31,083 INFO     New matches to send: 3
+2026-04-15 18:49:31,083 INFO     New matches to send: 3
+2026-04-15 18:49:31,997 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:49:31,997 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:49:31,997 INFO     ═══ Run Summary ═══
+2026-04-15 18:49:31,997 INFO     ═══ Run Summary ═══
+2026-04-15 18:49:31,998 INFO       Serper raw results:    547
+2026-04-15 18:49:31,998 INFO       Serper raw results:    547
+2026-04-15 18:49:31,998 INFO       After URL dedup:       491
+2026-04-15 18:49:31,998 INFO       After URL dedup:       491
+2026-04-15 18:49:31,998 INFO       Dropped — date:        0
+2026-04-15 18:49:31,998 INFO       Dropped — date:        0
+2026-04-15 18:49:31,998 INFO       Dropped — title:       222
+2026-04-15 18:49:31,998 INFO       Dropped — title:       222
+2026-04-15 18:49:31,998 INFO       Dropped — location:    202  (US filter)
+2026-04-15 18:49:31,998 INFO       Dropped — location:    202  (US filter)
+2026-04-15 18:49:31,998 INFO       Dropped — sponsorship: 0
+2026-04-15 18:49:31,998 INFO       Dropped — sponsorship: 0
+2026-04-15 18:49:31,998 INFO       Dropped — experience:  1
+2026-04-15 18:49:31,998 INFO       Dropped — experience:  1
+2026-04-15 18:49:31,999 INFO       Dropped — seen in DB:  60
+2026-04-15 18:49:31,999 INFO       Dropped — seen in DB:  60
+2026-04-15 18:49:31,999 INFO       Dropped — low score:   3
+2026-04-15 18:49:31,999 INFO       Dropped — low score:   3
+2026-04-15 18:49:31,999 INFO       Sent to Telegram:      3
+2026-04-15 18:49:31,999 INFO       Sent to Telegram:      3
+2026-04-15 18:49:31,999 INFO       DB size (before/after): 101 / 109
+2026-04-15 18:49:31,999 INFO       DB size (before/after): 101 / 109
+2026-04-15 18:49:31,999 INFO     ═══ Done ═══
+2026-04-15 18:49:31,999 INFO     ═══ Done ═══
+2026-04-15 18:49:36,273 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:49:36,273 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:49:43,720 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:49:43,720 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:49:51,252 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:49:51,252 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:49:58,753 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:49:58,753 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:50:02,802 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:50:02,802 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:50:02,807 INFO     Resume loaded (4024 chars)
+2026-04-15 18:50:02,807 INFO     Resume loaded (4024 chars)
+2026-04-15 18:50:02,811 INFO     DB contains 109 seen jobs
+2026-04-15 18:50:02,811 INFO     DB contains 109 seen jobs
+2026-04-15 18:50:02,811 INFO     Fetching jobs posted since: 2026-04-15 18:49 UTC
+2026-04-15 18:50:02,811 INFO     Fetching jobs posted since: 2026-04-15 18:49 UTC
+2026-04-15 18:50:02,811 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:50:02,811 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:50:06,208 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:50:06,208 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:50:08,869 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:50:08,869 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:50:15,435 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:50:15,435 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:50:15,612 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:50:15,612 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:50:22,456 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:50:22,456 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:50:22,615 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:50:22,615 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:50:29,607 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:50:29,607 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:50:29,719 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:50:29,719 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:50:30,609 INFO     [Serper] Total parsed: 547
+2026-04-15 18:50:30,609 INFO     [Serper] Total parsed: 547
+2026-04-15 18:50:30,609 INFO     Total jobs before filtering: 547
+2026-04-15 18:50:30,609 INFO     Total jobs before filtering: 547
+2026-04-15 18:50:30,610 INFO     After dedup: 492 unique (55 collisions)
+2026-04-15 18:50:30,610 INFO     After dedup: 492 unique (55 collisions)
+2026-04-15 18:50:30,636 INFO     Filter stats — date:0 title:219 location:200 sponsor:0 exp:1 seen:68 score:3
+2026-04-15 18:50:30,636 INFO     Filter stats — date:0 title:219 location:200 sponsor:0 exp:1 seen:68 score:3
+2026-04-15 18:50:30,636 INFO     New matches to send: 1
+2026-04-15 18:50:30,636 INFO     New matches to send: 1
+2026-04-15 18:50:31,537 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:50:31,537 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:50:31,538 INFO     ═══ Run Summary ═══
+2026-04-15 18:50:31,538 INFO     ═══ Run Summary ═══
+2026-04-15 18:50:31,538 INFO       Serper raw results:    547
+2026-04-15 18:50:31,538 INFO       Serper raw results:    547
+2026-04-15 18:50:31,538 INFO       After URL dedup:       492
+2026-04-15 18:50:31,538 INFO       After URL dedup:       492
+2026-04-15 18:50:31,538 INFO       Dropped — date:        0
+2026-04-15 18:50:31,538 INFO       Dropped — date:        0
+2026-04-15 18:50:31,538 INFO       Dropped — title:       219
+2026-04-15 18:50:31,538 INFO       Dropped — title:       219
+2026-04-15 18:50:31,538 INFO       Dropped — location:    200  (US filter)
+2026-04-15 18:50:31,538 INFO       Dropped — location:    200  (US filter)
+2026-04-15 18:50:31,538 INFO       Dropped — sponsorship: 0
+2026-04-15 18:50:31,538 INFO       Dropped — sponsorship: 0
+2026-04-15 18:50:31,538 INFO       Dropped — experience:  1
+2026-04-15 18:50:31,538 INFO       Dropped — experience:  1
+2026-04-15 18:50:31,538 INFO       Dropped — seen in DB:  68
+2026-04-15 18:50:31,538 INFO       Dropped — seen in DB:  68
+2026-04-15 18:50:31,538 INFO       Dropped — low score:   3
+2026-04-15 18:50:31,538 INFO       Dropped — low score:   3
+2026-04-15 18:50:31,538 INFO       Sent to Telegram:      1
+2026-04-15 18:50:31,538 INFO       Sent to Telegram:      1
+2026-04-15 18:50:31,538 INFO       DB size (before/after): 106 / 110
+2026-04-15 18:50:31,538 INFO       DB size (before/after): 106 / 110
+2026-04-15 18:50:31,538 INFO     ═══ Done ═══
+2026-04-15 18:50:31,538 INFO     ═══ Done ═══
+2026-04-15 18:50:37,592 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:50:37,592 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:50:45,416 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:50:45,416 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:50:52,823 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:50:52,823 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:51:00,639 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:51:00,639 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:51:02,779 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:51:02,779 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:51:02,779 INFO     Resume loaded (4024 chars)
+2026-04-15 18:51:02,779 INFO     Resume loaded (4024 chars)
+2026-04-15 18:51:02,782 INFO     DB contains 110 seen jobs
+2026-04-15 18:51:02,782 INFO     DB contains 110 seen jobs
+2026-04-15 18:51:02,782 INFO     Fetching jobs posted since: 2026-04-15 18:50 UTC
+2026-04-15 18:51:02,782 INFO     Fetching jobs posted since: 2026-04-15 18:50 UTC
+2026-04-15 18:51:02,782 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:51:02,782 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:51:07,362 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:51:07,362 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:51:09,850 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:51:09,850 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:51:14,614 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:51:14,614 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:51:17,158 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:51:17,158 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:51:21,346 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:51:21,346 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:51:25,619 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:51:25,619 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:51:28,644 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:51:28,644 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:51:29,646 INFO     [Serper] Total parsed: 547
+2026-04-15 18:51:29,646 INFO     [Serper] Total parsed: 547
+2026-04-15 18:51:29,647 INFO     Total jobs before filtering: 547
+2026-04-15 18:51:29,647 INFO     Total jobs before filtering: 547
+2026-04-15 18:51:29,647 INFO     After dedup: 488 unique (59 collisions)
+2026-04-15 18:51:29,647 INFO     After dedup: 488 unique (59 collisions)
+2026-04-15 18:51:29,689 INFO     Filter stats — date:0 title:217 location:201 sponsor:0 exp:0 seen:65 score:3
+2026-04-15 18:51:29,689 INFO     Filter stats — date:0 title:217 location:201 sponsor:0 exp:0 seen:65 score:3
+2026-04-15 18:51:29,689 INFO     New matches to send: 2
+2026-04-15 18:51:29,689 INFO     New matches to send: 2
+2026-04-15 18:51:30,606 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:51:30,606 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:51:30,607 INFO     ═══ Run Summary ═══
+2026-04-15 18:51:30,607 INFO     ═══ Run Summary ═══
+2026-04-15 18:51:30,607 INFO       Serper raw results:    547
+2026-04-15 18:51:30,607 INFO       Serper raw results:    547
+2026-04-15 18:51:30,607 INFO       After URL dedup:       488
+2026-04-15 18:51:30,607 INFO       After URL dedup:       488
+2026-04-15 18:51:30,607 INFO       Dropped — date:        0
+2026-04-15 18:51:30,607 INFO       Dropped — date:        0
+2026-04-15 18:51:30,607 INFO       Dropped — title:       217
+2026-04-15 18:51:30,607 INFO       Dropped — title:       217
+2026-04-15 18:51:30,607 INFO       Dropped — location:    201  (US filter)
+2026-04-15 18:51:30,607 INFO       Dropped — location:    201  (US filter)
+2026-04-15 18:51:30,607 INFO       Dropped — sponsorship: 0
+2026-04-15 18:51:30,607 INFO       Dropped — sponsorship: 0
+2026-04-15 18:51:30,608 INFO       Dropped — experience:  0
+2026-04-15 18:51:30,608 INFO       Dropped — experience:  0
+2026-04-15 18:51:30,608 INFO       Dropped — seen in DB:  65
+2026-04-15 18:51:30,608 INFO       Dropped — seen in DB:  65
+2026-04-15 18:51:30,608 INFO       Dropped — low score:   3
+2026-04-15 18:51:30,608 INFO       Dropped — low score:   3
+2026-04-15 18:51:30,608 INFO       Sent to Telegram:      2
+2026-04-15 18:51:30,608 INFO       Sent to Telegram:      2
+2026-04-15 18:51:30,608 INFO       DB size (before/after): 109 / 112
+2026-04-15 18:51:30,608 INFO       DB size (before/after): 109 / 112
+2026-04-15 18:51:30,608 INFO     ═══ Done ═══
+2026-04-15 18:51:30,608 INFO     ═══ Done ═══
+2026-04-15 18:51:32,396 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:51:32,396 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:51:39,111 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:51:39,111 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:51:46,168 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:51:46,168 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:51:53,427 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:51:53,427 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:52:00,839 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:52:00,839 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:52:03,239 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:52:03,239 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:52:03,241 INFO     Resume loaded (4024 chars)
+2026-04-15 18:52:03,241 INFO     Resume loaded (4024 chars)
+2026-04-15 18:52:03,244 INFO     DB contains 112 seen jobs
+2026-04-15 18:52:03,244 INFO     DB contains 112 seen jobs
+2026-04-15 18:52:03,245 INFO     Fetching jobs posted since: 2026-04-15 18:51 UTC
+2026-04-15 18:52:03,245 INFO     Fetching jobs posted since: 2026-04-15 18:51 UTC
+2026-04-15 18:52:03,245 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:52:03,245 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:52:07,843 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:52:07,843 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:52:10,101 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:52:10,101 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:52:15,057 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:52:15,057 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:52:17,015 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:52:17,015 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:52:21,939 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:52:21,939 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:52:24,158 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:52:24,158 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:52:28,540 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:52:28,540 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:52:29,541 INFO     [Serper] Total parsed: 547
+2026-04-15 18:52:29,541 INFO     [Serper] Total parsed: 547
+2026-04-15 18:52:29,542 INFO     Total jobs before filtering: 547
+2026-04-15 18:52:29,542 INFO     Total jobs before filtering: 547
+2026-04-15 18:52:29,542 INFO     After dedup: 491 unique (56 collisions)
+2026-04-15 18:52:29,542 INFO     After dedup: 491 unique (56 collisions)
+2026-04-15 18:52:29,571 INFO     Filter stats — date:0 title:219 location:207 sponsor:0 exp:0 seen:61 score:3
+2026-04-15 18:52:29,571 INFO     Filter stats — date:0 title:219 location:207 sponsor:0 exp:0 seen:61 score:3
+2026-04-15 18:52:29,571 INFO     New matches to send: 1
+2026-04-15 18:52:29,571 INFO     New matches to send: 1
+2026-04-15 18:52:30,456 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:52:30,456 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:52:30,457 INFO     ═══ Run Summary ═══
+2026-04-15 18:52:30,457 INFO     ═══ Run Summary ═══
+2026-04-15 18:52:30,457 INFO       Serper raw results:    547
+2026-04-15 18:52:30,457 INFO       Serper raw results:    547
+2026-04-15 18:52:30,457 INFO       After URL dedup:       491
+2026-04-15 18:52:30,457 INFO       After URL dedup:       491
+2026-04-15 18:52:30,457 INFO       Dropped — date:        0
+2026-04-15 18:52:30,457 INFO       Dropped — date:        0
+2026-04-15 18:52:30,457 INFO       Dropped — title:       219
+2026-04-15 18:52:30,457 INFO       Dropped — title:       219
+2026-04-15 18:52:30,457 INFO       Dropped — location:    207  (US filter)
+2026-04-15 18:52:30,457 INFO       Dropped — location:    207  (US filter)
+2026-04-15 18:52:30,457 INFO       Dropped — sponsorship: 0
+2026-04-15 18:52:30,457 INFO       Dropped — sponsorship: 0
+2026-04-15 18:52:30,457 INFO       Dropped — experience:  0
+2026-04-15 18:52:30,457 INFO       Dropped — experience:  0
+2026-04-15 18:52:30,457 INFO       Dropped — seen in DB:  61
+2026-04-15 18:52:30,457 INFO       Dropped — seen in DB:  61
+2026-04-15 18:52:30,457 INFO       Dropped — low score:   3
+2026-04-15 18:52:30,457 INFO       Dropped — low score:   3
+2026-04-15 18:52:30,457 INFO       Sent to Telegram:      1
+2026-04-15 18:52:30,457 INFO       Sent to Telegram:      1
+2026-04-15 18:52:30,457 INFO       DB size (before/after): 110 / 113
+2026-04-15 18:52:30,457 INFO       DB size (before/after): 110 / 113
+2026-04-15 18:52:30,457 INFO     ═══ Done ═══
+2026-04-15 18:52:30,457 INFO     ═══ Done ═══
+2026-04-15 18:52:31,733 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:52:31,733 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:52:39,434 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:52:39,434 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:52:47,004 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:52:47,004 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:52:54,624 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:52:54,624 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:53:01,942 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:53:01,942 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:53:02,962 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:53:02,962 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:53:02,963 INFO     Resume loaded (4024 chars)
+2026-04-15 18:53:02,963 INFO     Resume loaded (4024 chars)
+2026-04-15 18:53:02,968 INFO     DB contains 113 seen jobs
+2026-04-15 18:53:02,968 INFO     DB contains 113 seen jobs
+2026-04-15 18:53:02,968 INFO     Fetching jobs posted since: 2026-04-15 18:52 UTC
+2026-04-15 18:53:02,968 INFO     Fetching jobs posted since: 2026-04-15 18:52 UTC
+2026-04-15 18:53:02,968 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:53:02,968 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:53:09,133 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:53:09,133 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:53:09,333 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:53:09,333 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:53:16,368 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:53:16,368 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:53:17,589 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:53:17,589 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:53:23,365 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:53:23,365 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:53:24,331 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:53:24,331 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:53:30,698 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:53:30,698 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:53:31,368 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:53:31,368 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:53:32,369 INFO     [Serper] Total parsed: 547
+2026-04-15 18:53:32,369 INFO     [Serper] Total parsed: 547
+2026-04-15 18:53:32,369 INFO     Total jobs before filtering: 547
+2026-04-15 18:53:32,369 INFO     Total jobs before filtering: 547
+2026-04-15 18:53:32,370 INFO     After dedup: 488 unique (59 collisions)
+2026-04-15 18:53:32,370 INFO     After dedup: 488 unique (59 collisions)
+2026-04-15 18:53:32,396 INFO     Filter stats — date:0 title:213 location:207 sponsor:0 exp:2 seen:62 score:3
+2026-04-15 18:53:32,396 INFO     Filter stats — date:0 title:213 location:207 sponsor:0 exp:2 seen:62 score:3
+2026-04-15 18:53:32,396 INFO     New matches to send: 1
+2026-04-15 18:53:32,396 INFO     New matches to send: 1
+2026-04-15 18:53:33,299 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:53:33,299 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:53:33,299 INFO     ═══ Run Summary ═══
+2026-04-15 18:53:33,299 INFO     ═══ Run Summary ═══
+2026-04-15 18:53:33,299 INFO       Serper raw results:    547
+2026-04-15 18:53:33,299 INFO       Serper raw results:    547
+2026-04-15 18:53:33,300 INFO       After URL dedup:       488
+2026-04-15 18:53:33,300 INFO       After URL dedup:       488
+2026-04-15 18:53:33,300 INFO       Dropped — date:        0
+2026-04-15 18:53:33,300 INFO       Dropped — date:        0
+2026-04-15 18:53:33,300 INFO       Dropped — title:       213
+2026-04-15 18:53:33,300 INFO       Dropped — title:       213
+2026-04-15 18:53:33,300 INFO       Dropped — location:    207  (US filter)
+2026-04-15 18:53:33,300 INFO       Dropped — location:    207  (US filter)
+2026-04-15 18:53:33,300 INFO       Dropped — sponsorship: 0
+2026-04-15 18:53:33,300 INFO       Dropped — sponsorship: 0
+2026-04-15 18:53:33,300 INFO       Dropped — experience:  2
+2026-04-15 18:53:33,300 INFO       Dropped — experience:  2
+2026-04-15 18:53:33,300 INFO       Dropped — seen in DB:  62
+2026-04-15 18:53:33,300 INFO       Dropped — seen in DB:  62
+2026-04-15 18:53:33,300 INFO       Dropped — low score:   3
+2026-04-15 18:53:33,300 INFO       Dropped — low score:   3
+2026-04-15 18:53:33,300 INFO       Sent to Telegram:      1
+2026-04-15 18:53:33,300 INFO       Sent to Telegram:      1
+2026-04-15 18:53:33,300 INFO       DB size (before/after): 112 / 114
+2026-04-15 18:53:33,300 INFO       DB size (before/after): 112 / 114
+2026-04-15 18:53:33,300 INFO     ═══ Done ═══
+2026-04-15 18:53:33,300 INFO     ═══ Done ═══
+2026-04-15 18:53:37,320 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:53:37,320 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:53:44,691 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:53:44,691 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:53:51,931 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:53:51,931 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:53:59,795 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:53:59,795 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:54:02,849 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:54:02,849 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:54:02,849 INFO     Resume loaded (4024 chars)
+2026-04-15 18:54:02,849 INFO     Resume loaded (4024 chars)
+2026-04-15 18:54:02,853 INFO     DB contains 114 seen jobs
+2026-04-15 18:54:02,853 INFO     DB contains 114 seen jobs
+2026-04-15 18:54:02,853 INFO     Fetching jobs posted since: 2026-04-15 18:53 UTC
+2026-04-15 18:54:02,853 INFO     Fetching jobs posted since: 2026-04-15 18:53 UTC
+2026-04-15 18:54:02,853 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:54:02,853 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:54:07,267 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:54:07,267 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:54:09,348 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:54:09,348 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:54:14,898 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:54:14,898 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:54:16,718 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:54:16,718 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:54:21,692 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:54:21,692 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:54:23,280 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:54:23,280 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:54:28,849 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:54:28,849 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:54:29,850 INFO     [Serper] Total parsed: 547
+2026-04-15 18:54:29,850 INFO     [Serper] Total parsed: 547
+2026-04-15 18:54:29,850 INFO     Total jobs before filtering: 547
+2026-04-15 18:54:29,850 INFO     Total jobs before filtering: 547
+2026-04-15 18:54:29,850 INFO     After dedup: 490 unique (57 collisions)
+2026-04-15 18:54:29,850 INFO     After dedup: 490 unique (57 collisions)
+2026-04-15 18:54:29,878 INFO     Filter stats — date:0 title:220 location:205 sponsor:0 exp:0 seen:60 score:3
+2026-04-15 18:54:29,878 INFO     Filter stats — date:0 title:220 location:205 sponsor:0 exp:0 seen:60 score:3
+2026-04-15 18:54:29,879 INFO     New matches to send: 2
+2026-04-15 18:54:29,879 INFO     New matches to send: 2
+2026-04-15 18:54:30,221 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:54:30,221 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:54:30,785 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:54:30,785 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:54:30,786 INFO     ═══ Run Summary ═══
+2026-04-15 18:54:30,786 INFO     ═══ Run Summary ═══
+2026-04-15 18:54:30,786 INFO       Serper raw results:    547
+2026-04-15 18:54:30,786 INFO       Serper raw results:    547
+2026-04-15 18:54:30,786 INFO       After URL dedup:       490
+2026-04-15 18:54:30,786 INFO       After URL dedup:       490
+2026-04-15 18:54:30,786 INFO       Dropped — date:        0
+2026-04-15 18:54:30,786 INFO       Dropped — date:        0
+2026-04-15 18:54:30,786 INFO       Dropped — title:       220
+2026-04-15 18:54:30,786 INFO       Dropped — title:       220
+2026-04-15 18:54:30,786 INFO       Dropped — location:    205  (US filter)
+2026-04-15 18:54:30,786 INFO       Dropped — location:    205  (US filter)
+2026-04-15 18:54:30,786 INFO       Dropped — sponsorship: 0
+2026-04-15 18:54:30,786 INFO       Dropped — sponsorship: 0
+2026-04-15 18:54:30,786 INFO       Dropped — experience:  0
+2026-04-15 18:54:30,786 INFO       Dropped — experience:  0
+2026-04-15 18:54:30,786 INFO       Dropped — seen in DB:  60
+2026-04-15 18:54:30,786 INFO       Dropped — seen in DB:  60
+2026-04-15 18:54:30,786 INFO       Dropped — low score:   3
+2026-04-15 18:54:30,786 INFO       Dropped — low score:   3
+2026-04-15 18:54:30,786 INFO       Sent to Telegram:      2
+2026-04-15 18:54:30,786 INFO       Sent to Telegram:      2
+2026-04-15 18:54:30,786 INFO       DB size (before/after): 113 / 116
+2026-04-15 18:54:30,786 INFO       DB size (before/after): 113 / 116
+2026-04-15 18:54:30,787 INFO     ═══ Done ═══
+2026-04-15 18:54:30,787 INFO     ═══ Done ═══
+2026-04-15 18:54:37,370 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:54:37,370 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:54:44,399 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:54:44,399 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:54:51,420 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:54:51,420 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:54:58,505 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:54:58,505 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:55:03,718 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:55:03,718 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:55:03,720 INFO     Resume loaded (4024 chars)
+2026-04-15 18:55:03,720 INFO     Resume loaded (4024 chars)
+2026-04-15 18:55:03,724 INFO     DB contains 116 seen jobs
+2026-04-15 18:55:03,724 INFO     DB contains 116 seen jobs
+2026-04-15 18:55:03,724 INFO     Fetching jobs posted since: 2026-04-15 18:54 UTC
+2026-04-15 18:55:03,724 INFO     Fetching jobs posted since: 2026-04-15 18:54 UTC
+2026-04-15 18:55:03,724 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:55:03,724 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:55:06,118 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:55:06,118 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:55:09,902 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:55:09,902 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:55:13,332 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:55:13,332 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:55:16,864 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:55:16,864 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:55:20,876 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:55:20,876 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:55:25,203 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:55:25,203 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:55:28,079 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:55:28,079 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:55:29,081 INFO     [Serper] Total parsed: 547
+2026-04-15 18:55:29,081 INFO     [Serper] Total parsed: 547
+2026-04-15 18:55:29,082 INFO     Total jobs before filtering: 547
+2026-04-15 18:55:29,082 INFO     Total jobs before filtering: 547
+2026-04-15 18:55:29,082 INFO     After dedup: 489 unique (58 collisions)
+2026-04-15 18:55:29,082 INFO     After dedup: 489 unique (58 collisions)
+2026-04-15 18:55:29,114 INFO     Filter stats — date:0 title:214 location:203 sponsor:0 exp:2 seen:64 score:4
+2026-04-15 18:55:29,114 INFO     Filter stats — date:0 title:214 location:203 sponsor:0 exp:2 seen:64 score:4
+2026-04-15 18:55:29,114 INFO     New matches to send: 2
+2026-04-15 18:55:29,114 INFO     New matches to send: 2
+2026-04-15 18:55:30,001 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:55:30,001 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:55:30,002 INFO     ═══ Run Summary ═══
+2026-04-15 18:55:30,002 INFO     ═══ Run Summary ═══
+2026-04-15 18:55:30,002 INFO       Serper raw results:    547
+2026-04-15 18:55:30,002 INFO       Serper raw results:    547
+2026-04-15 18:55:30,002 INFO       After URL dedup:       489
+2026-04-15 18:55:30,002 INFO       After URL dedup:       489
+2026-04-15 18:55:30,002 INFO       Dropped — date:        0
+2026-04-15 18:55:30,002 INFO       Dropped — date:        0
+2026-04-15 18:55:30,002 INFO       Dropped — title:       214
+2026-04-15 18:55:30,002 INFO       Dropped — title:       214
+2026-04-15 18:55:30,003 INFO       Dropped — location:    203  (US filter)
+2026-04-15 18:55:30,003 INFO       Dropped — location:    203  (US filter)
+2026-04-15 18:55:30,003 INFO       Dropped — sponsorship: 0
+2026-04-15 18:55:30,003 INFO       Dropped — sponsorship: 0
+2026-04-15 18:55:30,003 INFO       Dropped — experience:  2
+2026-04-15 18:55:30,003 INFO       Dropped — experience:  2
+2026-04-15 18:55:30,003 INFO       Dropped — seen in DB:  64
+2026-04-15 18:55:30,003 INFO       Dropped — seen in DB:  64
+2026-04-15 18:55:30,003 INFO       Dropped — low score:   4
+2026-04-15 18:55:30,003 INFO       Dropped — low score:   4
+2026-04-15 18:55:30,003 INFO       Sent to Telegram:      2
+2026-04-15 18:55:30,003 INFO       Sent to Telegram:      2
+2026-04-15 18:55:30,003 INFO       DB size (before/after): 114 / 118
+2026-04-15 18:55:30,003 INFO       DB size (before/after): 114 / 118
+2026-04-15 18:55:30,003 INFO     ═══ Done ═══
+2026-04-15 18:55:30,003 INFO     ═══ Done ═══
+2026-04-15 18:55:32,446 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:55:32,446 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:55:39,332 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:55:39,332 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:55:46,247 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:55:46,247 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:55:53,134 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:55:53,134 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:55:59,953 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:55:59,953 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:56:02,707 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:56:02,707 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:56:02,709 INFO     Resume loaded (4024 chars)
+2026-04-15 18:56:02,709 INFO     Resume loaded (4024 chars)
+2026-04-15 18:56:02,714 INFO     DB contains 118 seen jobs
+2026-04-15 18:56:02,714 INFO     DB contains 118 seen jobs
+2026-04-15 18:56:02,714 INFO     Fetching jobs posted since: 2026-04-15 18:55 UTC
+2026-04-15 18:56:02,714 INFO     Fetching jobs posted since: 2026-04-15 18:55 UTC
+2026-04-15 18:56:02,714 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:56:02,714 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:56:07,127 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:56:07,127 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:56:08,728 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:56:08,728 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:56:14,574 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:56:14,574 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:56:16,091 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:56:16,091 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:56:21,777 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:56:21,777 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:56:23,235 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:56:23,235 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:56:30,450 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:56:30,450 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:56:33,513 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:56:33,513 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:56:34,514 INFO     [Serper] Total parsed: 547
+2026-04-15 18:56:34,514 INFO     [Serper] Total parsed: 547
+2026-04-15 18:56:34,515 INFO     Total jobs before filtering: 547
+2026-04-15 18:56:34,515 INFO     Total jobs before filtering: 547
+2026-04-15 18:56:34,515 INFO     After dedup: 486 unique (61 collisions)
+2026-04-15 18:56:34,515 INFO     After dedup: 486 unique (61 collisions)
+2026-04-15 18:56:34,535 INFO     Filter stats — date:0 title:223 location:199 sponsor:0 exp:0 seen:61 score:3
+2026-04-15 18:56:34,535 INFO     Filter stats — date:0 title:223 location:199 sponsor:0 exp:0 seen:61 score:3
+2026-04-15 18:56:34,535 INFO     New matches to send: 0
+2026-04-15 18:56:34,535 INFO     New matches to send: 0
+2026-04-15 18:56:35,482 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:56:35,482 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:56:35,483 INFO     ═══ Run Summary ═══
+2026-04-15 18:56:35,483 INFO     ═══ Run Summary ═══
+2026-04-15 18:56:35,483 INFO       Serper raw results:    547
+2026-04-15 18:56:35,483 INFO       Serper raw results:    547
+2026-04-15 18:56:35,483 INFO       After URL dedup:       486
+2026-04-15 18:56:35,483 INFO       After URL dedup:       486
+2026-04-15 18:56:35,483 INFO       Dropped — date:        0
+2026-04-15 18:56:35,483 INFO       Dropped — date:        0
+2026-04-15 18:56:35,483 INFO       Dropped — title:       223
+2026-04-15 18:56:35,483 INFO       Dropped — title:       223
+2026-04-15 18:56:35,483 INFO       Dropped — location:    199  (US filter)
+2026-04-15 18:56:35,483 INFO       Dropped — location:    199  (US filter)
+2026-04-15 18:56:35,483 INFO       Dropped — sponsorship: 0
+2026-04-15 18:56:35,483 INFO       Dropped — sponsorship: 0
+2026-04-15 18:56:35,483 INFO       Dropped — experience:  0
+2026-04-15 18:56:35,483 INFO       Dropped — experience:  0
+2026-04-15 18:56:35,483 INFO       Dropped — seen in DB:  61
+2026-04-15 18:56:35,483 INFO       Dropped — seen in DB:  61
+2026-04-15 18:56:35,483 INFO       Dropped — low score:   3
+2026-04-15 18:56:35,483 INFO       Dropped — low score:   3
+2026-04-15 18:56:35,483 INFO       Sent to Telegram:      0
+2026-04-15 18:56:35,483 INFO       Sent to Telegram:      0
+2026-04-15 18:56:35,483 INFO       DB size (before/after): 116 / 118
+2026-04-15 18:56:35,483 INFO       DB size (before/after): 116 / 118
+2026-04-15 18:56:35,483 INFO     ═══ Done ═══
+2026-04-15 18:56:35,483 INFO     ═══ Done ═══
+2026-04-15 18:56:37,325 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:56:37,325 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:56:44,441 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:56:44,441 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:56:52,325 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:56:52,325 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:56:59,617 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:56:59,617 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:57:02,858 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:57:02,858 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:57:02,859 INFO     Resume loaded (4024 chars)
+2026-04-15 18:57:02,859 INFO     Resume loaded (4024 chars)
+2026-04-15 18:57:02,862 INFO     DB contains 118 seen jobs
+2026-04-15 18:57:02,862 INFO     DB contains 118 seen jobs
+2026-04-15 18:57:02,862 INFO     Fetching jobs posted since: 2026-04-15 18:56 UTC
+2026-04-15 18:57:02,862 INFO     Fetching jobs posted since: 2026-04-15 18:56 UTC
+2026-04-15 18:57:02,862 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:57:02,862 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:57:06,858 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:57:06,858 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:57:09,266 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:57:09,266 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:57:13,810 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:57:13,810 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:57:16,151 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:57:16,151 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:57:21,258 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:57:21,258 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:57:23,359 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:57:23,359 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:57:28,558 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:57:28,558 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:57:29,559 INFO     [Serper] Total parsed: 547
+2026-04-15 18:57:29,559 INFO     [Serper] Total parsed: 547
+2026-04-15 18:57:29,559 INFO     Total jobs before filtering: 547
+2026-04-15 18:57:29,559 INFO     Total jobs before filtering: 547
+2026-04-15 18:57:29,560 INFO     After dedup: 493 unique (54 collisions)
+2026-04-15 18:57:29,560 INFO     After dedup: 493 unique (54 collisions)
+2026-04-15 18:57:29,604 INFO     Filter stats — date:0 title:229 location:192 sponsor:0 exp:0 seen:67 score:3
+2026-04-15 18:57:29,604 INFO     Filter stats — date:0 title:229 location:192 sponsor:0 exp:0 seen:67 score:3
+2026-04-15 18:57:29,605 INFO     New matches to send: 2
+2026-04-15 18:57:29,605 INFO     New matches to send: 2
+2026-04-15 18:57:30,992 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:57:30,992 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:57:31,029 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:57:31,029 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:57:31,029 INFO     ═══ Run Summary ═══
+2026-04-15 18:57:31,029 INFO     ═══ Run Summary ═══
+2026-04-15 18:57:31,030 INFO       Serper raw results:    547
+2026-04-15 18:57:31,030 INFO       Serper raw results:    547
+2026-04-15 18:57:31,030 INFO       After URL dedup:       493
+2026-04-15 18:57:31,030 INFO       After URL dedup:       493
+2026-04-15 18:57:31,030 INFO       Dropped — date:        0
+2026-04-15 18:57:31,030 INFO       Dropped — date:        0
+2026-04-15 18:57:31,030 INFO       Dropped — title:       229
+2026-04-15 18:57:31,030 INFO       Dropped — title:       229
+2026-04-15 18:57:31,030 INFO       Dropped — location:    192  (US filter)
+2026-04-15 18:57:31,030 INFO       Dropped — location:    192  (US filter)
+2026-04-15 18:57:31,030 INFO       Dropped — sponsorship: 0
+2026-04-15 18:57:31,030 INFO       Dropped — sponsorship: 0
+2026-04-15 18:57:31,030 INFO       Dropped — experience:  0
+2026-04-15 18:57:31,030 INFO       Dropped — experience:  0
+2026-04-15 18:57:31,030 INFO       Dropped — seen in DB:  67
+2026-04-15 18:57:31,030 INFO       Dropped — seen in DB:  67
+2026-04-15 18:57:31,030 INFO       Dropped — low score:   3
+2026-04-15 18:57:31,030 INFO       Dropped — low score:   3
+2026-04-15 18:57:31,030 INFO       Sent to Telegram:      2
+2026-04-15 18:57:31,030 INFO       Sent to Telegram:      2
+2026-04-15 18:57:31,030 INFO       DB size (before/after): 118 / 120
+2026-04-15 18:57:31,030 INFO       DB size (before/after): 118 / 120
+2026-04-15 18:57:31,030 INFO     ═══ Done ═══
+2026-04-15 18:57:31,030 INFO     ═══ Done ═══
+2026-04-15 18:57:38,208 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:57:38,208 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:57:45,694 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:57:45,694 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:57:52,741 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:57:52,741 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:57:59,809 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:57:59,809 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:58:02,766 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:58:02,766 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:58:02,769 INFO     Resume loaded (4024 chars)
+2026-04-15 18:58:02,769 INFO     Resume loaded (4024 chars)
+2026-04-15 18:58:02,774 INFO     DB contains 120 seen jobs
+2026-04-15 18:58:02,774 INFO     DB contains 120 seen jobs
+2026-04-15 18:58:02,775 INFO     Fetching jobs posted since: 2026-04-15 18:57 UTC
+2026-04-15 18:58:02,775 INFO     Fetching jobs posted since: 2026-04-15 18:57 UTC
+2026-04-15 18:58:02,775 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:58:02,775 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:58:06,938 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:58:06,938 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:58:08,841 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:58:08,841 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:58:13,886 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:58:13,886 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:58:17,108 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:58:17,108 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:58:21,202 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:58:21,202 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:58:24,703 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:58:24,703 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:58:28,343 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:58:28,343 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:58:29,344 INFO     [Serper] Total parsed: 547
+2026-04-15 18:58:29,344 INFO     [Serper] Total parsed: 547
+2026-04-15 18:58:29,344 INFO     Total jobs before filtering: 547
+2026-04-15 18:58:29,344 INFO     Total jobs before filtering: 547
+2026-04-15 18:58:29,344 INFO     After dedup: 489 unique (58 collisions)
+2026-04-15 18:58:29,344 INFO     After dedup: 489 unique (58 collisions)
+2026-04-15 18:58:29,372 INFO     Filter stats — date:0 title:216 location:201 sponsor:0 exp:1 seen:67 score:3
+2026-04-15 18:58:29,372 INFO     Filter stats — date:0 title:216 location:201 sponsor:0 exp:1 seen:67 score:3
+2026-04-15 18:58:29,372 INFO     New matches to send: 1
+2026-04-15 18:58:29,372 INFO     New matches to send: 1
+2026-04-15 18:58:30,394 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:58:30,394 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:58:30,395 INFO     ═══ Run Summary ═══
+2026-04-15 18:58:30,395 INFO     ═══ Run Summary ═══
+2026-04-15 18:58:30,395 INFO       Serper raw results:    547
+2026-04-15 18:58:30,395 INFO       Serper raw results:    547
+2026-04-15 18:58:30,395 INFO       After URL dedup:       489
+2026-04-15 18:58:30,395 INFO       After URL dedup:       489
+2026-04-15 18:58:30,395 INFO       Dropped — date:        0
+2026-04-15 18:58:30,395 INFO       Dropped — date:        0
+2026-04-15 18:58:30,395 INFO       Dropped — title:       216
+2026-04-15 18:58:30,395 INFO       Dropped — title:       216
+2026-04-15 18:58:30,395 INFO       Dropped — location:    201  (US filter)
+2026-04-15 18:58:30,395 INFO       Dropped — location:    201  (US filter)
+2026-04-15 18:58:30,395 INFO       Dropped — sponsorship: 0
+2026-04-15 18:58:30,395 INFO       Dropped — sponsorship: 0
+2026-04-15 18:58:30,395 INFO       Dropped — experience:  1
+2026-04-15 18:58:30,395 INFO       Dropped — experience:  1
+2026-04-15 18:58:30,395 INFO       Dropped — seen in DB:  67
+2026-04-15 18:58:30,395 INFO       Dropped — seen in DB:  67
+2026-04-15 18:58:30,395 INFO       Dropped — low score:   3
+2026-04-15 18:58:30,395 INFO       Dropped — low score:   3
+2026-04-15 18:58:30,395 INFO       Sent to Telegram:      1
+2026-04-15 18:58:30,395 INFO       Sent to Telegram:      1
+2026-04-15 18:58:30,395 INFO       DB size (before/after): 118 / 121
+2026-04-15 18:58:30,395 INFO       DB size (before/after): 118 / 121
+2026-04-15 18:58:30,395 INFO     ═══ Done ═══
+2026-04-15 18:58:30,395 INFO     ═══ Done ═══
+2026-04-15 18:58:32,051 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:58:32,051 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:58:38,920 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:58:38,920 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 18:58:47,132 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:58:47,132 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:58:54,504 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:58:54,504 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:59:01,981 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:59:01,981 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 18:59:02,891 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:59:02,891 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 18:59:02,892 INFO     Resume loaded (4024 chars)
+2026-04-15 18:59:02,892 INFO     Resume loaded (4024 chars)
+2026-04-15 18:59:02,895 INFO     DB contains 121 seen jobs
+2026-04-15 18:59:02,895 INFO     DB contains 121 seen jobs
+2026-04-15 18:59:02,895 INFO     Fetching jobs posted since: 2026-04-15 18:58 UTC
+2026-04-15 18:59:02,895 INFO     Fetching jobs posted since: 2026-04-15 18:58 UTC
+2026-04-15 18:59:02,895 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:59:02,895 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 18:59:08,937 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:59:08,937 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 18:59:09,231 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:59:09,231 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 18:59:16,229 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:59:16,229 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 18:59:17,149 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:59:17,149 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 18:59:23,194 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:59:23,194 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 18:59:24,418 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:59:24,418 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 18:59:30,288 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:59:30,288 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 18:59:31,289 INFO     [Serper] Total parsed: 547
+2026-04-15 18:59:31,289 INFO     [Serper] Total parsed: 547
+2026-04-15 18:59:31,290 INFO     Total jobs before filtering: 547
+2026-04-15 18:59:31,290 INFO     Total jobs before filtering: 547
+2026-04-15 18:59:31,290 INFO     After dedup: 497 unique (50 collisions)
+2026-04-15 18:59:31,290 INFO     After dedup: 497 unique (50 collisions)
+2026-04-15 18:59:31,321 INFO     Filter stats — date:0 title:218 location:207 sponsor:0 exp:3 seen:64 score:3
+2026-04-15 18:59:31,321 INFO     Filter stats — date:0 title:218 location:207 sponsor:0 exp:3 seen:64 score:3
+2026-04-15 18:59:31,322 INFO     New matches to send: 2
+2026-04-15 18:59:31,322 INFO     New matches to send: 2
+2026-04-15 18:59:31,713 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:59:31,713 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 18:59:32,210 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:59:32,210 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 18:59:32,211 INFO     ═══ Run Summary ═══
+2026-04-15 18:59:32,211 INFO     ═══ Run Summary ═══
+2026-04-15 18:59:32,211 INFO       Serper raw results:    547
+2026-04-15 18:59:32,211 INFO       Serper raw results:    547
+2026-04-15 18:59:32,211 INFO       After URL dedup:       497
+2026-04-15 18:59:32,211 INFO       After URL dedup:       497
+2026-04-15 18:59:32,211 INFO       Dropped — date:        0
+2026-04-15 18:59:32,211 INFO       Dropped — date:        0
+2026-04-15 18:59:32,211 INFO       Dropped — title:       218
+2026-04-15 18:59:32,211 INFO       Dropped — title:       218
+2026-04-15 18:59:32,211 INFO       Dropped — location:    207  (US filter)
+2026-04-15 18:59:32,211 INFO       Dropped — location:    207  (US filter)
+2026-04-15 18:59:32,211 INFO       Dropped — sponsorship: 0
+2026-04-15 18:59:32,211 INFO       Dropped — sponsorship: 0
+2026-04-15 18:59:32,211 INFO       Dropped — experience:  3
+2026-04-15 18:59:32,211 INFO       Dropped — experience:  3
+2026-04-15 18:59:32,211 INFO       Dropped — seen in DB:  64
+2026-04-15 18:59:32,211 INFO       Dropped — seen in DB:  64
+2026-04-15 18:59:32,211 INFO       Dropped — low score:   3
+2026-04-15 18:59:32,211 INFO       Dropped — low score:   3
+2026-04-15 18:59:32,211 INFO       Sent to Telegram:      2
+2026-04-15 18:59:32,211 INFO       Sent to Telegram:      2
+2026-04-15 18:59:32,211 INFO       DB size (before/after): 120 / 123
+2026-04-15 18:59:32,211 INFO       DB size (before/after): 120 / 123
+2026-04-15 18:59:32,211 INFO     ═══ Done ═══
+2026-04-15 18:59:32,211 INFO     ═══ Done ═══
+2026-04-15 18:59:38,918 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 18:59:38,918 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 18:59:46,594 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:59:46,594 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 18:59:53,899 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 18:59:53,899 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:00:00,869 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:00:00,869 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:00:03,443 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:00:03,443 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:00:03,445 INFO     Resume loaded (4024 chars)
+2026-04-15 19:00:03,445 INFO     Resume loaded (4024 chars)
+2026-04-15 19:00:03,450 INFO     DB contains 123 seen jobs
+2026-04-15 19:00:03,450 INFO     DB contains 123 seen jobs
+2026-04-15 19:00:03,450 INFO     Fetching jobs posted since: 2026-04-15 18:59 UTC
+2026-04-15 19:00:03,450 INFO     Fetching jobs posted since: 2026-04-15 18:59 UTC
+2026-04-15 19:00:03,450 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:00:03,450 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:00:07,892 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:00:07,892 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:00:11,058 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:00:11,058 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:00:15,758 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:00:15,758 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:00:17,983 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:00:17,983 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:00:23,195 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:00:23,195 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:00:24,874 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:00:24,874 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:00:30,116 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:00:30,116 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:00:31,117 INFO     [Serper] Total parsed: 546
+2026-04-15 19:00:31,117 INFO     [Serper] Total parsed: 546
+2026-04-15 19:00:31,118 INFO     Total jobs before filtering: 546
+2026-04-15 19:00:31,118 INFO     Total jobs before filtering: 546
+2026-04-15 19:00:31,118 INFO     After dedup: 494 unique (52 collisions)
+2026-04-15 19:00:31,118 INFO     After dedup: 494 unique (52 collisions)
+2026-04-15 19:00:31,140 INFO     Filter stats — date:0 title:229 location:202 sponsor:0 exp:2 seen:58 score:3
+2026-04-15 19:00:31,140 INFO     Filter stats — date:0 title:229 location:202 sponsor:0 exp:2 seen:58 score:3
+2026-04-15 19:00:31,141 INFO     New matches to send: 0
+2026-04-15 19:00:31,141 INFO     New matches to send: 0
+2026-04-15 19:00:31,902 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:00:31,902 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:00:32,056 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:00:32,056 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:00:32,057 INFO     ═══ Run Summary ═══
+2026-04-15 19:00:32,057 INFO     ═══ Run Summary ═══
+2026-04-15 19:00:32,057 INFO       Serper raw results:    546
+2026-04-15 19:00:32,057 INFO       Serper raw results:    546
+2026-04-15 19:00:32,057 INFO       After URL dedup:       494
+2026-04-15 19:00:32,057 INFO       After URL dedup:       494
+2026-04-15 19:00:32,057 INFO       Dropped — date:        0
+2026-04-15 19:00:32,057 INFO       Dropped — date:        0
+2026-04-15 19:00:32,057 INFO       Dropped — title:       229
+2026-04-15 19:00:32,057 INFO       Dropped — title:       229
+2026-04-15 19:00:32,057 INFO       Dropped — location:    202  (US filter)
+2026-04-15 19:00:32,057 INFO       Dropped — location:    202  (US filter)
+2026-04-15 19:00:32,057 INFO       Dropped — sponsorship: 0
+2026-04-15 19:00:32,057 INFO       Dropped — sponsorship: 0
+2026-04-15 19:00:32,057 INFO       Dropped — experience:  2
+2026-04-15 19:00:32,057 INFO       Dropped — experience:  2
+2026-04-15 19:00:32,057 INFO       Dropped — seen in DB:  58
+2026-04-15 19:00:32,057 INFO       Dropped — seen in DB:  58
+2026-04-15 19:00:32,057 INFO       Dropped — low score:   3
+2026-04-15 19:00:32,057 INFO       Dropped — low score:   3
+2026-04-15 19:00:32,057 INFO       Sent to Telegram:      0
+2026-04-15 19:00:32,057 INFO       Sent to Telegram:      0
+2026-04-15 19:00:32,057 INFO       DB size (before/after): 121 / 123
+2026-04-15 19:00:32,057 INFO       DB size (before/after): 121 / 123
+2026-04-15 19:00:32,057 INFO     ═══ Done ═══
+2026-04-15 19:00:32,057 INFO     ═══ Done ═══
+2026-04-15 19:00:39,189 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:00:39,189 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:00:47,530 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:00:47,530 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:00:57,532 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:00:57,532 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:01:03,004 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:01:03,004 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:01:03,007 INFO     Resume loaded (4024 chars)
+2026-04-15 19:01:03,007 INFO     Resume loaded (4024 chars)
+2026-04-15 19:01:03,012 INFO     DB contains 123 seen jobs
+2026-04-15 19:01:03,012 INFO     DB contains 123 seen jobs
+2026-04-15 19:01:03,013 INFO     Fetching jobs posted since: 2026-04-15 19:00 UTC
+2026-04-15 19:01:03,013 INFO     Fetching jobs posted since: 2026-04-15 19:00 UTC
+2026-04-15 19:01:03,013 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:01:03,013 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:01:06,494 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:01:06,494 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:01:11,349 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:01:11,349 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:01:13,872 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:01:13,872 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:01:18,812 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:01:18,812 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:01:21,404 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:01:21,404 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:01:27,436 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:01:27,436 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:01:30,156 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:01:30,156 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:01:34,933 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:01:34,933 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:01:37,694 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:01:37,694 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:01:38,695 INFO     [Serper] Total parsed: 547
+2026-04-15 19:01:38,695 INFO     [Serper] Total parsed: 547
+2026-04-15 19:01:38,696 INFO     Total jobs before filtering: 547
+2026-04-15 19:01:38,696 INFO     Total jobs before filtering: 547
+2026-04-15 19:01:38,696 INFO     After dedup: 493 unique (54 collisions)
+2026-04-15 19:01:38,696 INFO     After dedup: 493 unique (54 collisions)
+2026-04-15 19:01:38,724 INFO     Filter stats — date:0 title:224 location:205 sponsor:0 exp:1 seen:59 score:3
+2026-04-15 19:01:38,724 INFO     Filter stats — date:0 title:224 location:205 sponsor:0 exp:1 seen:59 score:3
+2026-04-15 19:01:38,724 INFO     New matches to send: 1
+2026-04-15 19:01:38,724 INFO     New matches to send: 1
+2026-04-15 19:01:39,737 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:01:39,737 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:01:39,737 INFO     ═══ Run Summary ═══
+2026-04-15 19:01:39,737 INFO     ═══ Run Summary ═══
+2026-04-15 19:01:39,737 INFO       Serper raw results:    547
+2026-04-15 19:01:39,737 INFO       Serper raw results:    547
+2026-04-15 19:01:39,737 INFO       After URL dedup:       493
+2026-04-15 19:01:39,737 INFO       After URL dedup:       493
+2026-04-15 19:01:39,737 INFO       Dropped — date:        0
+2026-04-15 19:01:39,737 INFO       Dropped — date:        0
+2026-04-15 19:01:39,737 INFO       Dropped — title:       224
+2026-04-15 19:01:39,737 INFO       Dropped — title:       224
+2026-04-15 19:01:39,737 INFO       Dropped — location:    205  (US filter)
+2026-04-15 19:01:39,737 INFO       Dropped — location:    205  (US filter)
+2026-04-15 19:01:39,737 INFO       Dropped — sponsorship: 0
+2026-04-15 19:01:39,737 INFO       Dropped — sponsorship: 0
+2026-04-15 19:01:39,737 INFO       Dropped — experience:  1
+2026-04-15 19:01:39,737 INFO       Dropped — experience:  1
+2026-04-15 19:01:39,737 INFO       Dropped — seen in DB:  59
+2026-04-15 19:01:39,737 INFO       Dropped — seen in DB:  59
+2026-04-15 19:01:39,737 INFO       Dropped — low score:   3
+2026-04-15 19:01:39,737 INFO       Dropped — low score:   3
+2026-04-15 19:01:39,737 INFO       Sent to Telegram:      1
+2026-04-15 19:01:39,737 INFO       Sent to Telegram:      1
+2026-04-15 19:01:39,737 INFO       DB size (before/after): 123 / 124
+2026-04-15 19:01:39,737 INFO       DB size (before/after): 123 / 124
+2026-04-15 19:01:39,737 INFO     ═══ Done ═══
+2026-04-15 19:01:39,737 INFO     ═══ Done ═══
+2026-04-15 19:01:42,738 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:01:42,738 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:01:49,913 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:01:49,913 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:01:58,113 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:01:58,113 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:02:03,126 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:02:03,126 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:02:03,127 INFO     Resume loaded (4024 chars)
+2026-04-15 19:02:03,127 INFO     Resume loaded (4024 chars)
+2026-04-15 19:02:03,131 INFO     DB contains 124 seen jobs
+2026-04-15 19:02:03,131 INFO     DB contains 124 seen jobs
+2026-04-15 19:02:03,131 INFO     Fetching jobs posted since: 2026-04-15 19:01 UTC
+2026-04-15 19:02:03,131 INFO     Fetching jobs posted since: 2026-04-15 19:01 UTC
+2026-04-15 19:02:03,131 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:02:03,131 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:02:05,150 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:02:05,150 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:02:10,387 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:02:10,387 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:02:13,050 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:02:13,050 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:02:17,855 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:02:17,855 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:02:21,126 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:02:21,126 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:02:24,638 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:02:24,638 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:02:28,993 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:02:28,993 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:02:31,886 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:02:31,886 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:02:35,835 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:02:35,835 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:02:36,836 INFO     [Serper] Total parsed: 547
+2026-04-15 19:02:36,836 INFO     [Serper] Total parsed: 547
+2026-04-15 19:02:36,837 INFO     Total jobs before filtering: 547
+2026-04-15 19:02:36,837 INFO     Total jobs before filtering: 547
+2026-04-15 19:02:36,837 INFO     After dedup: 493 unique (54 collisions)
+2026-04-15 19:02:36,837 INFO     After dedup: 493 unique (54 collisions)
+2026-04-15 19:02:36,859 INFO     Filter stats — date:0 title:224 location:201 sponsor:0 exp:2 seen:63 score:3
+2026-04-15 19:02:36,859 INFO     Filter stats — date:0 title:224 location:201 sponsor:0 exp:2 seen:63 score:3
+2026-04-15 19:02:36,860 INFO     New matches to send: 0
+2026-04-15 19:02:36,860 INFO     New matches to send: 0
+2026-04-15 19:02:37,781 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:02:37,781 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:02:37,782 INFO     ═══ Run Summary ═══
+2026-04-15 19:02:37,782 INFO     ═══ Run Summary ═══
+2026-04-15 19:02:37,782 INFO       Serper raw results:    547
+2026-04-15 19:02:37,782 INFO       Serper raw results:    547
+2026-04-15 19:02:37,782 INFO       After URL dedup:       493
+2026-04-15 19:02:37,782 INFO       After URL dedup:       493
+2026-04-15 19:02:37,782 INFO       Dropped — date:        0
+2026-04-15 19:02:37,782 INFO       Dropped — date:        0
+2026-04-15 19:02:37,782 INFO       Dropped — title:       224
+2026-04-15 19:02:37,782 INFO       Dropped — title:       224
+2026-04-15 19:02:37,782 INFO       Dropped — location:    201  (US filter)
+2026-04-15 19:02:37,782 INFO       Dropped — location:    201  (US filter)
+2026-04-15 19:02:37,782 INFO       Dropped — sponsorship: 0
+2026-04-15 19:02:37,782 INFO       Dropped — sponsorship: 0
+2026-04-15 19:02:37,782 INFO       Dropped — experience:  2
+2026-04-15 19:02:37,782 INFO       Dropped — experience:  2
+2026-04-15 19:02:37,782 INFO       Dropped — seen in DB:  63
+2026-04-15 19:02:37,782 INFO       Dropped — seen in DB:  63
+2026-04-15 19:02:37,782 INFO       Dropped — low score:   3
+2026-04-15 19:02:37,782 INFO       Dropped — low score:   3
+2026-04-15 19:02:37,782 INFO       Sent to Telegram:      0
+2026-04-15 19:02:37,782 INFO       Sent to Telegram:      0
+2026-04-15 19:02:37,782 INFO       DB size (before/after): 123 / 124
+2026-04-15 19:02:37,782 INFO       DB size (before/after): 123 / 124
+2026-04-15 19:02:37,782 INFO     ═══ Done ═══
+2026-04-15 19:02:37,782 INFO     ═══ Done ═══
+2026-04-15 19:02:39,816 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:02:39,816 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:02:47,664 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:02:47,664 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:02:55,765 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:02:55,765 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:03:02,950 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:03:02,950 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:03:03,216 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:03:03,216 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:03:03,217 INFO     Resume loaded (4024 chars)
+2026-04-15 19:03:03,217 INFO     Resume loaded (4024 chars)
+2026-04-15 19:03:03,220 INFO     DB contains 124 seen jobs
+2026-04-15 19:03:03,220 INFO     DB contains 124 seen jobs
+2026-04-15 19:03:03,220 INFO     Fetching jobs posted since: 2026-04-15 19:02 UTC
+2026-04-15 19:03:03,220 INFO     Fetching jobs posted since: 2026-04-15 19:02 UTC
+2026-04-15 19:03:03,220 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:03:03,220 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:03:09,502 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:03:09,502 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:03:10,645 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:03:10,645 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:03:16,736 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:03:16,736 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:03:18,269 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:03:18,269 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:03:24,826 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:03:24,826 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:03:25,188 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:03:25,188 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:03:31,716 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:03:31,716 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:03:33,290 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:03:33,290 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:03:34,291 INFO     [Serper] Total parsed: 547
+2026-04-15 19:03:34,291 INFO     [Serper] Total parsed: 547
+2026-04-15 19:03:34,291 INFO     Total jobs before filtering: 547
+2026-04-15 19:03:34,291 INFO     Total jobs before filtering: 547
+2026-04-15 19:03:34,292 INFO     After dedup: 494 unique (53 collisions)
+2026-04-15 19:03:34,292 INFO     After dedup: 494 unique (53 collisions)
+2026-04-15 19:03:34,316 INFO     Filter stats — date:0 title:219 location:201 sponsor:0 exp:2 seen:68 score:4
+2026-04-15 19:03:34,316 INFO     Filter stats — date:0 title:219 location:201 sponsor:0 exp:2 seen:68 score:4
+2026-04-15 19:03:34,316 INFO     New matches to send: 0
+2026-04-15 19:03:34,316 INFO     New matches to send: 0
+2026-04-15 19:03:35,254 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:03:35,254 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:03:35,254 INFO     ═══ Run Summary ═══
+2026-04-15 19:03:35,254 INFO     ═══ Run Summary ═══
+2026-04-15 19:03:35,254 INFO       Serper raw results:    547
+2026-04-15 19:03:35,254 INFO       Serper raw results:    547
+2026-04-15 19:03:35,255 INFO       After URL dedup:       494
+2026-04-15 19:03:35,255 INFO       After URL dedup:       494
+2026-04-15 19:03:35,255 INFO       Dropped — date:        0
+2026-04-15 19:03:35,255 INFO       Dropped — date:        0
+2026-04-15 19:03:35,255 INFO       Dropped — title:       219
+2026-04-15 19:03:35,255 INFO       Dropped — title:       219
+2026-04-15 19:03:35,255 INFO       Dropped — location:    201  (US filter)
+2026-04-15 19:03:35,255 INFO       Dropped — location:    201  (US filter)
+2026-04-15 19:03:35,255 INFO       Dropped — sponsorship: 0
+2026-04-15 19:03:35,255 INFO       Dropped — sponsorship: 0
+2026-04-15 19:03:35,256 INFO       Dropped — experience:  2
+2026-04-15 19:03:35,256 INFO       Dropped — experience:  2
+2026-04-15 19:03:35,256 INFO       Dropped — seen in DB:  68
+2026-04-15 19:03:35,256 INFO       Dropped — seen in DB:  68
+2026-04-15 19:03:35,256 INFO       Dropped — low score:   4
+2026-04-15 19:03:35,256 INFO       Dropped — low score:   4
+2026-04-15 19:03:35,256 INFO       Sent to Telegram:      0
+2026-04-15 19:03:35,256 INFO       Sent to Telegram:      0
+2026-04-15 19:03:35,256 INFO       DB size (before/after): 124 / 124
+2026-04-15 19:03:35,256 INFO       DB size (before/after): 124 / 124
+2026-04-15 19:03:35,256 INFO     ═══ Done ═══
+2026-04-15 19:03:35,256 INFO     ═══ Done ═══
+2026-04-15 19:03:39,371 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:03:39,371 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:03:47,381 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:03:47,381 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:03:54,732 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:03:54,732 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:04:01,656 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:04:01,656 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:04:02,739 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:04:02,739 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:04:02,740 INFO     Resume loaded (4024 chars)
+2026-04-15 19:04:02,740 INFO     Resume loaded (4024 chars)
+2026-04-15 19:04:02,743 INFO     DB contains 124 seen jobs
+2026-04-15 19:04:02,743 INFO     DB contains 124 seen jobs
+2026-04-15 19:04:02,744 INFO     Fetching jobs posted since: 2026-04-15 19:03 UTC
+2026-04-15 19:04:02,744 INFO     Fetching jobs posted since: 2026-04-15 19:03 UTC
+2026-04-15 19:04:02,744 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:04:02,744 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:04:09,365 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:04:09,365 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:04:09,958 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:04:09,958 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:04:16,463 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:04:16,463 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:04:16,992 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:04:16,992 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:04:24,022 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:04:24,022 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:04:25,073 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:04:25,073 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:04:32,371 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:04:32,371 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:04:32,383 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:04:32,383 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:04:33,372 INFO     [Serper] Total parsed: 547
+2026-04-15 19:04:33,372 INFO     [Serper] Total parsed: 547
+2026-04-15 19:04:33,373 INFO     Total jobs before filtering: 547
+2026-04-15 19:04:33,373 INFO     Total jobs before filtering: 547
+2026-04-15 19:04:33,373 INFO     After dedup: 493 unique (54 collisions)
+2026-04-15 19:04:33,373 INFO     After dedup: 493 unique (54 collisions)
+2026-04-15 19:04:33,396 INFO     Filter stats — date:0 title:226 location:199 sponsor:0 exp:2 seen:62 score:3
+2026-04-15 19:04:33,396 INFO     Filter stats — date:0 title:226 location:199 sponsor:0 exp:2 seen:62 score:3
+2026-04-15 19:04:33,396 INFO     New matches to send: 1
+2026-04-15 19:04:33,396 INFO     New matches to send: 1
+2026-04-15 19:04:34,323 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:04:34,323 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:04:34,323 INFO     ═══ Run Summary ═══
+2026-04-15 19:04:34,323 INFO     ═══ Run Summary ═══
+2026-04-15 19:04:34,323 INFO       Serper raw results:    547
+2026-04-15 19:04:34,323 INFO       Serper raw results:    547
+2026-04-15 19:04:34,324 INFO       After URL dedup:       493
+2026-04-15 19:04:34,324 INFO       After URL dedup:       493
+2026-04-15 19:04:34,324 INFO       Dropped — date:        0
+2026-04-15 19:04:34,324 INFO       Dropped — date:        0
+2026-04-15 19:04:34,324 INFO       Dropped — title:       226
+2026-04-15 19:04:34,324 INFO       Dropped — title:       226
+2026-04-15 19:04:34,324 INFO       Dropped — location:    199  (US filter)
+2026-04-15 19:04:34,324 INFO       Dropped — location:    199  (US filter)
+2026-04-15 19:04:34,324 INFO       Dropped — sponsorship: 0
+2026-04-15 19:04:34,324 INFO       Dropped — sponsorship: 0
+2026-04-15 19:04:34,324 INFO       Dropped — experience:  2
+2026-04-15 19:04:34,324 INFO       Dropped — experience:  2
+2026-04-15 19:04:34,324 INFO       Dropped — seen in DB:  62
+2026-04-15 19:04:34,324 INFO       Dropped — seen in DB:  62
+2026-04-15 19:04:34,324 INFO       Dropped — low score:   3
+2026-04-15 19:04:34,324 INFO       Dropped — low score:   3
+2026-04-15 19:04:34,324 INFO       Sent to Telegram:      1
+2026-04-15 19:04:34,324 INFO       Sent to Telegram:      1
+2026-04-15 19:04:34,324 INFO       DB size (before/after): 124 / 125
+2026-04-15 19:04:34,324 INFO       DB size (before/after): 124 / 125
+2026-04-15 19:04:34,324 INFO     ═══ Done ═══
+2026-04-15 19:04:34,324 INFO     ═══ Done ═══
+2026-04-15 19:04:39,825 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 19:04:39,825 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 19:04:46,969 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:04:46,969 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:04:54,767 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:04:54,767 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:05:02,609 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:05:02,609 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:05:03,730 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:05:03,730 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:05:03,735 INFO     Resume loaded (4024 chars)
+2026-04-15 19:05:03,735 INFO     Resume loaded (4024 chars)
+2026-04-15 19:05:03,740 INFO     DB contains 125 seen jobs
+2026-04-15 19:05:03,740 INFO     DB contains 125 seen jobs
+2026-04-15 19:05:03,741 INFO     Fetching jobs posted since: 2026-04-15 19:04 UTC
+2026-04-15 19:05:03,741 INFO     Fetching jobs posted since: 2026-04-15 19:04 UTC
+2026-04-15 19:05:03,741 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:05:03,741 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:05:09,656 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:05:09,656 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:05:11,038 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:05:11,038 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:05:17,994 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:05:17,994 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:05:18,044 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:05:18,044 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:05:25,188 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:05:25,188 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:05:25,224 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:05:25,224 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:05:32,180 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:05:32,180 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:05:32,699 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:05:32,699 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:05:33,181 INFO     [Serper] Total parsed: 546
+2026-04-15 19:05:33,181 INFO     [Serper] Total parsed: 546
+2026-04-15 19:05:33,181 INFO     Total jobs before filtering: 546
+2026-04-15 19:05:33,181 INFO     Total jobs before filtering: 546
+2026-04-15 19:05:33,182 INFO     After dedup: 492 unique (54 collisions)
+2026-04-15 19:05:33,182 INFO     After dedup: 492 unique (54 collisions)
+2026-04-15 19:05:33,212 INFO     Filter stats — date:0 title:224 location:204 sponsor:0 exp:2 seen:57 score:3
+2026-04-15 19:05:33,212 INFO     Filter stats — date:0 title:224 location:204 sponsor:0 exp:2 seen:57 score:3
+2026-04-15 19:05:33,213 INFO     New matches to send: 2
+2026-04-15 19:05:33,213 INFO     New matches to send: 2
+2026-04-15 19:05:34,142 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:05:34,142 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:05:34,142 INFO     ═══ Run Summary ═══
+2026-04-15 19:05:34,142 INFO     ═══ Run Summary ═══
+2026-04-15 19:05:34,142 INFO       Serper raw results:    546
+2026-04-15 19:05:34,142 INFO       Serper raw results:    546
+2026-04-15 19:05:34,142 INFO       After URL dedup:       492
+2026-04-15 19:05:34,142 INFO       After URL dedup:       492
+2026-04-15 19:05:34,142 INFO       Dropped — date:        0
+2026-04-15 19:05:34,142 INFO       Dropped — date:        0
+2026-04-15 19:05:34,142 INFO       Dropped — title:       224
+2026-04-15 19:05:34,142 INFO       Dropped — title:       224
+2026-04-15 19:05:34,142 INFO       Dropped — location:    204  (US filter)
+2026-04-15 19:05:34,142 INFO       Dropped — location:    204  (US filter)
+2026-04-15 19:05:34,142 INFO       Dropped — sponsorship: 0
+2026-04-15 19:05:34,142 INFO       Dropped — sponsorship: 0
+2026-04-15 19:05:34,142 INFO       Dropped — experience:  2
+2026-04-15 19:05:34,142 INFO       Dropped — experience:  2
+2026-04-15 19:05:34,142 INFO       Dropped — seen in DB:  57
+2026-04-15 19:05:34,142 INFO       Dropped — seen in DB:  57
+2026-04-15 19:05:34,142 INFO       Dropped — low score:   3
+2026-04-15 19:05:34,142 INFO       Dropped — low score:   3
+2026-04-15 19:05:34,143 INFO       Sent to Telegram:      2
+2026-04-15 19:05:34,143 INFO       Sent to Telegram:      2
+2026-04-15 19:05:34,143 INFO       DB size (before/after): 124 / 127
+2026-04-15 19:05:34,143 INFO       DB size (before/after): 124 / 127
+2026-04-15 19:05:34,143 INFO     ═══ Done ═══
+2026-04-15 19:05:34,143 INFO     ═══ Done ═══
+2026-04-15 19:05:40,515 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:05:40,515 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-15 19:05:47,915 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:05:47,915 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:05:55,926 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:05:55,926 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:06:02,523 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:06:02,523 INFO     ═══ Job Scout v5 starting ═══
+2026-04-15 19:06:02,524 INFO     Resume loaded (4024 chars)
+2026-04-15 19:06:02,524 INFO     Resume loaded (4024 chars)
+2026-04-15 19:06:02,526 INFO     DB contains 127 seen jobs
+2026-04-15 19:06:02,526 INFO     DB contains 127 seen jobs
+2026-04-15 19:06:02,526 INFO     Fetching jobs posted since: 2026-04-15 19:05 UTC
+2026-04-15 19:06:02,526 INFO     Fetching jobs posted since: 2026-04-15 19:05 UTC
+2026-04-15 19:06:02,526 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:06:02,526 INFO     [Serper] Querying 12 ATS domains
+2026-04-15 19:06:03,030 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:06:03,030 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:06:08,335 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:06:08,335 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-15 19:06:09,805 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:06:09,805 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:06:15,478 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:06:15,478 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-15 19:06:16,747 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:06:16,747 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:06:22,714 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:06:22,714 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-15 19:06:23,775 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:06:23,775 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:06:30,023 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:06:30,023 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-15 19:06:32,594 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:06:32,594 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:06:33,595 INFO     [Serper] Total parsed: 547
+2026-04-15 19:06:33,595 INFO     [Serper] Total parsed: 547
+2026-04-15 19:06:33,595 INFO     Total jobs before filtering: 547
+2026-04-15 19:06:33,595 INFO     Total jobs before filtering: 547
+2026-04-15 19:06:33,595 INFO     After dedup: 492 unique (55 collisions)
+2026-04-15 19:06:33,595 INFO     After dedup: 492 unique (55 collisions)
+2026-04-15 19:06:33,615 INFO     Filter stats — date:0 title:225 location:201 sponsor:0 exp:1 seen:62 score:3
+2026-04-15 19:06:33,615 INFO     Filter stats — date:0 title:225 location:201 sponsor:0 exp:1 seen:62 score:3
+2026-04-15 19:06:33,615 INFO     New matches to send: 0
+2026-04-15 19:06:33,615 INFO     New matches to send: 0
+2026-04-15 19:06:34,605 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:06:34,605 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:06:34,605 INFO     ═══ Run Summary ═══
+2026-04-15 19:06:34,605 INFO     ═══ Run Summary ═══
+2026-04-15 19:06:34,605 INFO       Serper raw results:    547
+2026-04-15 19:06:34,605 INFO       Serper raw results:    547
+2026-04-15 19:06:34,605 INFO       After URL dedup:       492
+2026-04-15 19:06:34,605 INFO       After URL dedup:       492
+2026-04-15 19:06:34,605 INFO       Dropped — date:        0
+2026-04-15 19:06:34,605 INFO       Dropped — date:        0
+2026-04-15 19:06:34,606 INFO       Dropped — title:       225
+2026-04-15 19:06:34,606 INFO       Dropped — title:       225
+2026-04-15 19:06:34,606 INFO       Dropped — location:    201  (US filter)
+2026-04-15 19:06:34,606 INFO       Dropped — location:    201  (US filter)
+2026-04-15 19:06:34,606 INFO       Dropped — sponsorship: 0
+2026-04-15 19:06:34,606 INFO       Dropped — sponsorship: 0
+2026-04-15 19:06:34,606 INFO       Dropped — experience:  1
+2026-04-15 19:06:34,606 INFO       Dropped — experience:  1
+2026-04-15 19:06:34,606 INFO       Dropped — seen in DB:  62
+2026-04-15 19:06:34,606 INFO       Dropped — seen in DB:  62
+2026-04-15 19:06:34,606 INFO       Dropped — low score:   3
+2026-04-15 19:06:34,606 INFO       Dropped — low score:   3
+2026-04-15 19:06:34,606 INFO       Sent to Telegram:      0
+2026-04-15 19:06:34,606 INFO       Sent to Telegram:      0
+2026-04-15 19:06:34,606 INFO       DB size (before/after): 125 / 127
+2026-04-15 19:06:34,606 INFO       DB size (before/after): 125 / 127
+2026-04-15 19:06:34,606 INFO     ═══ Done ═══
+2026-04-15 19:06:34,606 INFO     ═══ Done ═══
+2026-04-15 19:06:36,866 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 19:06:36,866 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 49 total results
+2026-04-15 19:06:44,763 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:06:44,763 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-15 19:06:52,336 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:06:52,336 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-15 19:06:59,400 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:06:59,400 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-15 19:07:07,290 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:07:07,290 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-15 19:07:13,971 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:07:13,971 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-15 19:07:20,992 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:07:20,992 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-15 19:07:27,804 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:07:27,804 INFO       Serper Workable (workable.com): 50 total results
+2026-04-15 19:07:28,805 INFO     [Serper] Total parsed: 546
+2026-04-15 19:07:28,805 INFO     [Serper] Total parsed: 546
+2026-04-15 19:07:28,806 INFO     Total jobs before filtering: 546
+2026-04-15 19:07:28,806 INFO     Total jobs before filtering: 546
+2026-04-15 19:07:28,806 INFO     After dedup: 490 unique (56 collisions)
+2026-04-15 19:07:28,806 INFO     After dedup: 490 unique (56 collisions)
+2026-04-15 19:07:28,826 INFO     Filter stats — date:0 title:222 location:203 sponsor:0 exp:2 seen:60 score:3
+2026-04-15 19:07:28,826 INFO     Filter stats — date:0 title:222 location:203 sponsor:0 exp:2 seen:60 score:3
+2026-04-15 19:07:28,826 INFO     New matches to send: 0
+2026-04-15 19:07:28,826 INFO     New matches to send: 0
+2026-04-15 19:07:29,772 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:07:29,772 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-15 19:07:29,772 INFO     ═══ Run Summary ═══
+2026-04-15 19:07:29,772 INFO     ═══ Run Summary ═══
+2026-04-15 19:07:29,772 INFO       Serper raw results:    546
+2026-04-15 19:07:29,772 INFO       Serper raw results:    546
+2026-04-15 19:07:29,772 INFO       After URL dedup:       490
+2026-04-15 19:07:29,772 INFO       After URL dedup:       490
+2026-04-15 19:07:29,772 INFO       Dropped — date:        0
+2026-04-15 19:07:29,772 INFO       Dropped — date:        0
+2026-04-15 19:07:29,772 INFO       Dropped — title:       222
+2026-04-15 19:07:29,772 INFO       Dropped — title:       222
+2026-04-15 19:07:29,772 INFO       Dropped — location:    203  (US filter)
+2026-04-15 19:07:29,772 INFO       Dropped — location:    203  (US filter)
+2026-04-15 19:07:29,773 INFO       Dropped — sponsorship: 0
+2026-04-15 19:07:29,773 INFO       Dropped — sponsorship: 0
+2026-04-15 19:07:29,773 INFO       Dropped — experience:  2
+2026-04-15 19:07:29,773 INFO       Dropped — experience:  2
+2026-04-15 19:07:29,773 INFO       Dropped — seen in DB:  60
+2026-04-15 19:07:29,773 INFO       Dropped — seen in DB:  60
+2026-04-15 19:07:29,773 INFO       Dropped — low score:   3
+2026-04-15 19:07:29,773 INFO       Dropped — low score:   3
+2026-04-15 19:07:29,773 INFO       Sent to Telegram:      0
+2026-04-15 19:07:29,773 INFO       Sent to Telegram:      0
+2026-04-15 19:07:29,773 INFO       DB size (before/after): 127 / 127
+2026-04-15 19:07:29,773 INFO       DB size (before/after): 127 / 127
+2026-04-15 19:07:29,773 INFO     ═══ Done ═══
+2026-04-15 19:07:29,773 INFO     ═══ Done ═══
+2026-04-16 14:00:08,618 INFO     ═══ Job Scout v5 starting ═══
+2026-04-16 14:00:08,618 INFO     ═══ Job Scout v5 starting ═══
+2026-04-16 14:00:08,626 INFO     Resume loaded (4024 chars)
+2026-04-16 14:00:08,626 INFO     Resume loaded (4024 chars)
+2026-04-16 14:00:08,643 INFO     DB contains 127 seen jobs
+2026-04-16 14:00:08,643 INFO     DB contains 127 seen jobs
+2026-04-16 14:00:08,643 INFO     Fetching jobs posted since: 2026-04-15 19:07 UTC
+2026-04-16 14:00:08,643 INFO     Fetching jobs posted since: 2026-04-15 19:07 UTC
+2026-04-16 14:00:08,643 INFO     [Serper] Querying 12 ATS domains
+2026-04-16 14:00:08,643 INFO     [Serper] Querying 12 ATS domains
+2026-04-16 14:00:15,853 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-16 14:00:15,853 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-16 14:00:28,952 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-16 14:00:28,952 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-16 14:00:46,284 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-16 14:00:46,284 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-16 14:00:58,938 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-16 14:00:58,938 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-16 14:01:07,534 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-16 14:01:07,534 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-16 14:01:18,629 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-16 14:01:18,629 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-16 14:01:31,131 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-16 14:01:31,131 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-16 14:01:40,305 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-16 14:01:40,305 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-16 14:01:50,001 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-16 14:01:50,001 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-16 14:02:02,437 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-16 14:02:02,437 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-16 14:02:12,586 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-16 14:02:12,586 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-16 14:02:28,796 INFO       Serper Workable (workable.com): 50 total results
+2026-04-16 14:02:28,796 INFO       Serper Workable (workable.com): 50 total results
+2026-04-16 14:02:29,797 INFO     [Serper] Total parsed: 547
+2026-04-16 14:02:29,797 INFO     [Serper] Total parsed: 547
+2026-04-16 14:02:29,797 INFO     Total jobs before filtering: 547
+2026-04-16 14:02:29,797 INFO     Total jobs before filtering: 547
+2026-04-16 14:02:29,797 INFO     After dedup: 495 unique (52 collisions)
+2026-04-16 14:02:29,797 INFO     After dedup: 495 unique (52 collisions)
+2026-04-16 14:02:29,855 INFO     Filter stats — date:0 title:220 location:201 sponsor:0 exp:2 seen:60 score:4
+2026-04-16 14:02:29,855 INFO     Filter stats — date:0 title:220 location:201 sponsor:0 exp:2 seen:60 score:4
+2026-04-16 14:02:29,855 INFO     New matches to send: 8
+2026-04-16 14:02:29,855 INFO     New matches to send: 8
+2026-04-16 14:02:30,774 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-16 14:02:30,774 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-16 14:02:30,775 INFO     ═══ Run Summary ═══
+2026-04-16 14:02:30,775 INFO     ═══ Run Summary ═══
+2026-04-16 14:02:30,775 INFO       Serper raw results:    547
+2026-04-16 14:02:30,775 INFO       Serper raw results:    547
+2026-04-16 14:02:30,775 INFO       After URL dedup:       495
+2026-04-16 14:02:30,775 INFO       After URL dedup:       495
+2026-04-16 14:02:30,775 INFO       Dropped — date:        0
+2026-04-16 14:02:30,775 INFO       Dropped — date:        0
+2026-04-16 14:02:30,775 INFO       Dropped — title:       220
+2026-04-16 14:02:30,775 INFO       Dropped — title:       220
+2026-04-16 14:02:30,775 INFO       Dropped — location:    201  (US filter)
+2026-04-16 14:02:30,775 INFO       Dropped — location:    201  (US filter)
+2026-04-16 14:02:30,775 INFO       Dropped — sponsorship: 0
+2026-04-16 14:02:30,775 INFO       Dropped — sponsorship: 0
+2026-04-16 14:02:30,775 INFO       Dropped — experience:  2
+2026-04-16 14:02:30,775 INFO       Dropped — experience:  2
+2026-04-16 14:02:30,775 INFO       Dropped — seen in DB:  60
+2026-04-16 14:02:30,775 INFO       Dropped — seen in DB:  60
+2026-04-16 14:02:30,775 INFO       Dropped — low score:   4
+2026-04-16 14:02:30,775 INFO       Dropped — low score:   4
+2026-04-16 14:02:30,775 INFO       Sent to Telegram:      8
+2026-04-16 14:02:30,775 INFO       Sent to Telegram:      8
+2026-04-16 14:02:30,775 INFO       DB size (before/after): 127 / 135
+2026-04-16 14:02:30,775 INFO       DB size (before/after): 127 / 135
+2026-04-16 14:02:30,775 INFO     ═══ Done ═══
+2026-04-16 14:02:30,775 INFO     ═══ Done ═══
+2026-04-16 18:39:26,593 INFO     DB migration: added identity_key, backfilled 115/135 rows
+2026-04-16 18:40:23,320 INFO     DB migration: added identity_key, backfilled 117/135 rows
+2026-04-16 18:44:17,247 INFO     ═══ Job Scout v5 starting ═══
+2026-04-16 18:44:17,249 INFO     Resume loaded (4024 chars)
+2026-04-16 18:44:17,255 INFO     DB contains 135 seen jobs
+2026-04-16 18:44:17,255 INFO     Fetching jobs posted since: 2026-04-16 14:02 UTC
+2026-04-16 18:44:17,255 INFO     [Serper] Querying 12 ATS domains
+2026-04-16 18:44:23,798 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-16 18:44:31,317 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-16 18:44:38,982 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-16 18:44:46,417 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-16 18:44:54,359 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-16 18:45:01,882 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-16 18:45:10,071 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-16 18:45:19,683 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-16 18:45:27,664 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-16 18:45:34,922 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-16 18:45:42,608 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-16 18:45:50,623 INFO       Serper Workable (workable.com): 50 total results
+2026-04-16 18:45:51,625 INFO     [Serper] Total parsed: 547
+2026-04-16 18:45:51,625 INFO     Total jobs before filtering: 547
+2026-04-16 18:45:51,626 INFO     After dedup: 484 unique (63 collisions)
+2026-04-16 18:45:51,668 INFO     Filter stats — date:0 title:223 location:192 sponsor:0 exp:1 seen:55 score:3
+2026-04-16 18:45:51,668 INFO     New matches to send: 10
+2026-04-16 18:45:52,169 INFO     (dry-run) skipping state save and DB writes
+2026-04-16 18:45:52,169 INFO     ═══ Run Summary ═══
+2026-04-16 18:45:52,169 INFO       Serper raw results:    547
+2026-04-16 18:45:52,169 INFO       After URL dedup:       484
+2026-04-16 18:45:52,169 INFO       Dropped — date:        0
+2026-04-16 18:45:52,169 INFO       Dropped — title:       223
+2026-04-16 18:45:52,169 INFO       Dropped — location:    192  (US filter)
+2026-04-16 18:45:52,170 INFO       Dropped — sponsorship: 0
+2026-04-16 18:45:52,170 INFO       Dropped — experience:  1
+2026-04-16 18:45:52,170 INFO       Dropped — seen in DB:  55
+2026-04-16 18:45:52,170 INFO       Dropped — low score:   3
+2026-04-16 18:45:52,170 INFO       Sent to Telegram:      10
+2026-04-16 18:45:52,170 INFO       DB size (before/after): 135 / 135
+2026-04-16 18:45:52,170 INFO     ═══ Done ═══
+2026-04-16 18:46:47,986 INFO     ═══ Job Scout v5 starting ═══
+2026-04-16 18:46:47,987 INFO     Resume loaded (4024 chars)
+2026-04-16 18:46:47,990 INFO     DB contains 135 seen jobs
+2026-04-16 18:46:47,990 INFO     Fetching jobs posted since: 2026-04-16 14:02 UTC
+2026-04-16 18:46:47,990 INFO     [Serper] Querying 12 ATS domains
+2026-04-16 18:46:54,434 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-16 18:47:01,961 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-16 18:47:08,919 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-16 18:47:16,629 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-16 18:47:24,160 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-16 18:47:32,135 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-16 18:47:39,631 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-16 18:47:47,084 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-16 18:47:54,276 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-16 18:48:01,358 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-16 18:48:08,817 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-16 18:48:16,287 INFO       Serper Workable (workable.com): 50 total results
+2026-04-16 18:48:17,288 INFO     [Serper] Total parsed: 547
+2026-04-16 18:48:17,289 INFO     Total jobs before filtering: 547
+2026-04-16 18:48:17,289 INFO     After dedup: 487 unique (60 collisions)
+2026-04-16 18:48:17,340 INFO     Filter stats — date:0 title:218 location:200 sponsor:0 exp:2 seen:56 score:3
+2026-04-16 18:48:17,340 INFO     New matches to send: 8
+2026-04-16 18:48:18,232 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-16 18:48:18,233 INFO     ═══ Run Summary ═══
+2026-04-16 18:48:18,233 INFO       Serper raw results:    547
+2026-04-16 18:48:18,233 INFO       After URL dedup:       487
+2026-04-16 18:48:18,233 INFO       Dropped — date:        0
+2026-04-16 18:48:18,233 INFO       Dropped — title:       218
+2026-04-16 18:48:18,233 INFO       Dropped — location:    200  (US filter)
+2026-04-16 18:48:18,233 INFO       Dropped — sponsorship: 0
+2026-04-16 18:48:18,233 INFO       Dropped — experience:  2
+2026-04-16 18:48:18,233 INFO       Dropped — seen in DB:  56
+2026-04-16 18:48:18,233 INFO       Dropped — low score:   3
+2026-04-16 18:48:18,233 INFO       Sent to Telegram:      8
+2026-04-16 18:48:18,233 INFO       DB size (before/after): 135 / 143
+2026-04-16 18:48:18,233 INFO     ═══ Done ═══
+2026-04-16 21:05:28,682 INFO     [bootstrap] scanning 143 existing seen_jobs URLs
+2026-04-16 21:05:28,690 INFO     [bootstrap] +76 new companies (by platform: {'ashby': 25, 'breezy': 13, 'greenhouse': 3, 'lever': 8, 'smartrecruiters': 5, 'workable': 9, 'workday': 13}); skipped 57 URLs from non-Tier-1/2 ATSes
+2026-04-16 21:05:28,691 INFO     ────────────────────────────────────────────────────────────
+2026-04-16 21:05:28,691 INFO     Companies table state:
+2026-04-16 21:05:28,691 INFO       ashby                25
+2026-04-16 21:05:28,691 INFO       breezy               13
+2026-04-16 21:05:28,691 INFO       greenhouse            3
+2026-04-16 21:05:28,691 INFO       lever                 8
+2026-04-16 21:05:28,691 INFO       smartrecruiters       5
+2026-04-16 21:05:28,691 INFO       workable              9
+2026-04-16 21:05:28,691 INFO       workday              13
+2026-04-16 21:05:28,691 INFO       TOTAL                76
+2026-04-16 21:10:53,441 INFO     [serper] querying Greenhouse (boards.greenhouse.io)
+2026-04-16 21:11:00,094 INFO       Serper Greenhouse (boards.greenhouse.io): 42 total results
+2026-04-16 21:11:00,597 INFO     [serper] querying Lever (jobs.lever.co)
+2026-04-16 21:11:06,694 INFO       Serper Lever (jobs.lever.co): 50 total results
+2026-04-16 21:11:07,197 INFO     [serper] querying Ashby (jobs.ashbyhq.com)
+2026-04-16 21:11:13,645 INFO       Serper Ashby (jobs.ashbyhq.com): 50 total results
+2026-04-16 21:11:14,147 INFO     [serper] querying Workday (myworkdayjobs.com)
+2026-04-16 21:11:21,043 INFO       Serper Workday (myworkdayjobs.com): 50 total results
+2026-04-16 21:11:21,545 INFO     [serper] querying SmartRecruiters (jobs.smartrecruiters.com)
+2026-04-16 21:11:28,308 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-16 21:11:28,810 INFO     [serper] querying Breezy (breezy.hr)
+2026-04-16 21:11:35,422 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-16 21:11:35,924 INFO     [serper] querying Workable (workable.com)
+2026-04-16 21:11:42,102 INFO       Serper Workable (workable.com): 50 total results
+2026-04-16 21:11:42,607 INFO     [serper] +205 new companies (by platform: {'ashby': 30, 'breezy': 26, 'greenhouse': 31, 'lever': 31, 'smartrecruiters': 27, 'workable': 26, 'workday': 34})
+2026-04-16 21:11:42,607 INFO     ────────────────────────────────────────────────────────────
+2026-04-16 21:11:42,607 INFO     Companies table state:
+2026-04-16 21:11:42,607 INFO       ashby                55
+2026-04-16 21:11:42,607 INFO       breezy               39
+2026-04-16 21:11:42,607 INFO       greenhouse           34
+2026-04-16 21:11:42,607 INFO       lever                39
+2026-04-16 21:11:42,607 INFO       smartrecruiters      32
+2026-04-16 21:11:42,607 INFO       workable             35
+2026-04-16 21:11:42,608 INFO       workday              47
+2026-04-16 21:11:42,608 INFO       TOTAL               281
+2026-04-16 21:33:07,320 INFO     Resume loaded (4024 chars)
+2026-04-16 21:33:07,331 INFO     ────────────────────────────
+2026-04-16 21:33:07,331 INFO     [shadow] Phase 2 ATS-API parallel fetch
+2026-04-16 21:33:07,333 INFO     [ats] polling 175 companies across 4 platforms
+2026-04-16 21:36:18,442 INFO     Resume loaded (4024 chars)
+2026-04-16 21:36:18,447 INFO     ────────────────────────────
+2026-04-16 21:36:18,447 INFO     [shadow] Phase 2 ATS-API parallel fetch
+2026-04-16 21:36:18,449 INFO     [ats] polling 175 companies across 4 platforms
+2026-04-16 21:36:24,075 WARNING  [shadow] ATS fetch failed entirely: database is locked
+2026-04-16 21:43:05,982 INFO     [ats] fetched 12103 jobs total: {'ashby': 1986, 'greenhouse': 6354, 'lever': 1971, 'workday': 1792}
+2026-04-16 21:43:05,982 WARNING  [ats] failures by platform: {'ashby': 2, 'lever': 10}
+2026-04-16 21:43:06,010 INFO     [shadow] ATS rejects — date:10818 title:1267 location:11 sponsor:0 exp:2 score:0 no_ts:0
+2026-04-16 21:43:06,010 INFO     [shadow] ATS-API would-send (24h, all filters): 5
+2026-04-16 21:43:06,010 INFO     [shadow] Serper actually sent:                  0
+2026-04-16 21:43:06,010 INFO     [shadow]   intersection (both found):           0
+2026-04-16 21:43:06,010 INFO     [shadow]   ATS-only (Serper missed):            3
+2026-04-16 21:43:06,010 INFO     [shadow]   Serper-only (ATS missed):            0
+2026-04-16 21:43:06,010 INFO     [shadow] Top 5 ATS-API matches by score:
+2026-04-16 21:43:06,010 INFO       [ATS!]  26% greenhouse | waymo              | 19.9h | Applied Research Scientist, Perception LLM/VLM (PhD, Ne
+2026-04-16 21:43:06,010 INFO       [ATS!]  26% greenhouse | cadencesolutions   |  5.4h | Applied AI Engineer
+2026-04-16 21:43:06,010 INFO       [ATS!]  25% greenhouse | waymo              | 20.0h | Machine Learning Engineer, 3D Object Detection  (PhD Ne
+2026-04-16 21:43:06,010 INFO       [ATS!]  25% greenhouse | waymo              | 20.0h | Applied Research Scientist, 3D Object Detection  (PhD N
+2026-04-16 21:43:06,010 INFO       [ATS!]  23%    workday | gartner            |  9.7h | Data Scientist (AL/ML)
+2026-04-16 21:58:22,078 INFO     ═══ Job Scout v5 starting ═══
+2026-04-16 21:58:22,079 INFO     Resume loaded (4024 chars)
+2026-04-16 21:58:22,083 INFO     DB contains 143 seen jobs
+2026-04-16 21:58:22,083 INFO     Fetching jobs posted since: 2026-04-16 18:48 UTC
+2026-04-16 21:58:22,087 INFO     [ats] polling 175 companies across 4 platforms
+2026-04-16 22:07:47,504 INFO     [ats] fetched 12596 jobs total: {'ashby': 2629, 'greenhouse': 6351, 'lever': 1804, 'workday': 1812}
+2026-04-16 22:07:47,505 WARNING  [ats] failures by platform: {'ashby': 1, 'lever': 10}
+2026-04-16 22:07:47,515 INFO     [Serper] Querying 8 ATS domains
+2026-04-16 22:07:53,781 INFO       Serper SmartRecruiters (jobs.smartrecruiters.com): 50 total results
+2026-04-16 22:08:01,949 INFO       Serper Jobvite (jobs.jobvite.com): 40 total results
+2026-04-16 22:08:09,448 INFO       Serper JazzHR (applytojob.com): 40 total results
+2026-04-16 22:08:16,657 INFO       Serper Taleo (taleo.net): 41 total results
+2026-04-16 22:08:23,656 INFO       Serper iCIMS (icims.com): 42 total results
+2026-04-16 22:08:30,443 INFO       Serper ADP (workforcenow.adp.com): 42 total results
+2026-04-16 22:08:38,047 INFO       Serper Breezy (breezy.hr): 50 total results
+2026-04-16 22:08:45,246 INFO       Serper Workable (workable.com): 50 total results
+2026-04-16 22:08:46,248 INFO     [Serper] Total parsed: 355
+2026-04-16 22:08:46,248 INFO     Feed sizes — ats:12596 serper:355
+2026-04-16 22:08:46,248 INFO     Total jobs before filtering: 12951
+2026-04-16 22:08:46,251 INFO     After dedup: 12896 unique (55 collisions)
+2026-04-16 22:08:46,275 INFO     Filter stats — date:12499 title:232 location:126 sponsor:0 exp:0 seen:37 score:1
+2026-04-16 22:08:46,275 INFO     New matches to send: 1
+2026-04-16 22:08:46,776 INFO     (dry-run) skipping state save and DB writes
+2026-04-16 22:08:46,776 INFO     ═══ Run Summary ═══
+2026-04-16 22:08:46,776 INFO       Tier-1 ATS raw:        12596
+2026-04-16 22:08:46,776 INFO       Serper raw:            355
+2026-04-16 22:08:46,776 INFO       After URL dedup:       12896
+2026-04-16 22:08:46,776 INFO       Dropped — date:        12499
+2026-04-16 22:08:46,776 INFO       Dropped — title:       232
+2026-04-16 22:08:46,776 INFO       Dropped — location:    126  (US filter)
+2026-04-16 22:08:46,776 INFO       Dropped — sponsorship: 0
+2026-04-16 22:08:46,776 INFO       Dropped — experience:  0
+2026-04-16 22:08:46,777 INFO       Dropped — seen in DB:  37
+2026-04-16 22:08:46,777 INFO       Dropped — low score:   1
+2026-04-16 22:08:46,777 INFO       Sent to Telegram:      1
+2026-04-16 22:08:46,777 INFO       DB size (before/after): 143 / 143
+2026-04-16 22:08:46,777 INFO     ═══ Done ═══
