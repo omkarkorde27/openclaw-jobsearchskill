@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
 """
-discovery.py — find ATS company slugs and persist them to `companies` table.
+discovery.py — weekly Serper job. Two responsibilities:
 
-Two modes (combine or pick one):
+  1. Slug discovery (Tier 1+2): run Serper site: queries on greenhouse,
+     lever, ashby, workday, smartrecruiters, workable, breezy. Parse each
+     result URL, upsert the (platform, slug) into `companies`. Feeds the
+     daily ATS-API fetcher.
 
-  --bootstrap   Scan existing `seen_jobs.url` rows. Free, no network.
-  --serper      Run the existing Serper site:<ats> queries to find new slugs.
-
-Default (no flags) = both modes.
+  2. Tier 3 job fetch: run Serper queries on iCIMS / Taleo / Jobvite / JazzHR
+     / ADP. Those platforms have no practical public listing API, so we
+     keep them on Serper at weekly cadence. Results flow through the same
+     filter/score/dedup pipeline and produce a Telegram digest.
 
 Usage:
-  python3 discovery.py                  # bootstrap + serper (full sync)
-  python3 discovery.py --bootstrap      # bootstrap only (no API calls)
-  python3 discovery.py --serper         # serper only
-  python3 discovery.py --dry-run        # show would-be inserts, don't write
+  python3 discovery.py                  # slug discovery + tier3 digest + bootstrap
+  python3 discovery.py --bootstrap      # bootstrap from seen_jobs URLs only
+  python3 discovery.py --serper         # slug discovery via Serper only (no digest)
+  python3 discovery.py --tier3          # tier3 job fetch + digest only
+  python3 discovery.py --dry-run        # no DB writes, no Telegram send
 
-This is the seed for the daily ATS-API fetch path. After Phase 1 it can run
-weekly via cron; Phase 2 will add the daily fetch script that consumes
-`companies`.
+Cron target: weekly, e.g. Sun 04:00.
 """
 from __future__ import annotations
 
@@ -27,7 +29,7 @@ import logging
 import sqlite3
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from job_scout import (
     init_db,
@@ -35,6 +37,9 @@ from job_scout import (
     parse_serper_result,
     ATS_DOMAINS,
     SERPER_KEY,
+    build_scorer,
+    load_resume,
+    process_and_send,
 )
 from ats import REGISTRY, ATSAdapter
 
@@ -108,34 +113,32 @@ def bootstrap_from_seen_jobs(conn: sqlite3.Connection, dry_run: bool) -> dict:
     return added
 
 
-# ─── Mode B: Serper discovery ───────────────────────────────────────────────
+# ─── Mode B: Serper slug discovery (Tier 1+2) ───────────────────────────────
 
-# Map Serper-side platform names to adapter `platform` keys.
-SERPER_TO_ADAPTER = {
-    "Greenhouse":      "greenhouse",
-    "Lever":           "lever",
-    "Ashby":           "ashby",
-    "Workday":         "workday",
-    "SmartRecruiters": "smartrecruiters",
-    "Workable":        "workable",
-    "Breezy":          "breezy",
-}
+# These are the platforms whose slugs feed the daily ATS-API fetcher.
+# Kept here (not in job_scout.ATS_DOMAINS) because job_scout no longer
+# queries them at all — they're ATS-native now.
+SLUG_DISCOVERY_DOMAINS = [
+    {"domain": "boards.greenhouse.io",     "platform": "greenhouse"},
+    {"domain": "jobs.lever.co",            "platform": "lever"},
+    {"domain": "jobs.ashbyhq.com",         "platform": "ashby"},
+    {"domain": "myworkdayjobs.com",        "platform": "workday"},
+    {"domain": "jobs.smartrecruiters.com", "platform": "smartrecruiters"},
+    {"domain": "workable.com",             "platform": "workable"},
+    {"domain": "breezy.hr",                "platform": "breezy"},
+]
 
 
 def discover_via_serper(conn: sqlite3.Connection, dry_run: bool) -> dict:
-    """Run the existing Serper queries; parse slugs from result URLs."""
+    """Run Serper slug queries for every Tier 1+2 platform and upsert slugs."""
     if not SERPER_KEY:
         log.warning("[serper] SERPER_API_KEY not set; skipping serper discovery")
         return {}
     added: dict[str, int] = {}
-    for ats in ATS_DOMAINS:
-        adapter_key = SERPER_TO_ADAPTER.get(ats["platform"])
-        if not adapter_key:
-            log.debug(f"[serper] skipping Tier-3 platform {ats['platform']}")
-            continue
-        adapter_cls = REGISTRY[adapter_key]
-        log.info(f"[serper] querying {ats['platform']} ({ats['domain']})")
-        results = fetch_serper(ats["domain"], ats["platform"])
+    for entry in SLUG_DISCOVERY_DOMAINS:
+        adapter_cls = REGISTRY[entry["platform"]]
+        log.info(f"[serper] querying {entry['platform']} ({entry['domain']})")
+        results = fetch_serper(entry["domain"], entry["platform"].capitalize())
         for r in results:
             url = r.get("link", "")
             info = adapter_cls.parse_slug(url)
@@ -150,6 +153,37 @@ def discover_via_serper(conn: sqlite3.Connection, dry_run: bool) -> dict:
     log.info(f"[serper] +{sum(added.values())} new companies "
              f"(by platform: {dict(sorted(added.items()))})")
     return added
+
+
+# ─── Mode C: Tier 3 job fetch + digest ─────────────────────────────────────
+
+def tier3_digest(conn: sqlite3.Connection, dry_run: bool) -> int:
+    """Fetch jobs from Tier 3 ATSes via Serper, run the same filter+score
+    pipeline as the daily run, and send a Telegram digest. Returns count sent.
+
+    Tier 3 (iCIMS/Taleo/Jobvite/JazzHR/ADP) has no cheap native listing API,
+    so we pay for Google's index at weekly cadence."""
+    if not SERPER_KEY:
+        log.warning("[tier3] SERPER_API_KEY not set; skipping tier-3 digest")
+        return 0
+    all_jobs: list[dict] = []
+    log.info(f"[tier3] querying {len(ATS_DOMAINS)} Tier-3 domains via Serper")
+    for ats in ATS_DOMAINS:
+        results = fetch_serper(ats["domain"], ats["platform"])
+        for r in results:
+            job = parse_serper_result(r, ats["platform"])
+            if job:
+                all_jobs.append(job)
+        time.sleep(1.0)
+    log.info(f"[tier3] parsed {len(all_jobs)} jobs")
+
+    # Weekly cadence → 7-day freshness window.
+    since = datetime.now(timezone.utc) - timedelta(days=7)
+    score_fn = build_scorer(load_resume())
+    new_matches, _, _ = process_and_send(
+        all_jobs, conn, score_fn, since, dry_run=dry_run,
+    )
+    return len(new_matches)
 
 
 # ─── CLI ────────────────────────────────────────────────────────────────────
@@ -168,23 +202,29 @@ def summarize(conn: sqlite3.Connection) -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Phase 1: ATS slug discovery + seeding")
+    ap = argparse.ArgumentParser(description="Weekly Serper job: slug discovery + Tier 3 digest")
     ap.add_argument("--bootstrap", action="store_true",
-                    help="Seed from existing seen_jobs URLs (no network)")
+                    help="Seed companies table from existing seen_jobs URLs (no network)")
     ap.add_argument("--serper", action="store_true",
-                    help="Run Serper queries to discover slugs (uses API quota)")
+                    help="Tier 1+2 slug discovery via Serper (uses API quota)")
+    ap.add_argument("--tier3", action="store_true",
+                    help="Run Tier 3 job fetch via Serper and send digest")
     ap.add_argument("--dry-run", action="store_true",
-                    help="Don't write to DB; show what would be added")
+                    help="Don't write to DB and don't send Telegram")
     args = ap.parse_args()
 
-    do_bootstrap = args.bootstrap or not (args.bootstrap or args.serper)
-    do_serper    = args.serper    or not (args.bootstrap or args.serper)
+    any_mode_picked = args.bootstrap or args.serper or args.tier3
+    do_bootstrap = args.bootstrap or not any_mode_picked
+    do_serper    = args.serper    or not any_mode_picked
+    do_tier3     = args.tier3     or not any_mode_picked
 
     conn = init_db(reset=False)
     if do_bootstrap:
         bootstrap_from_seen_jobs(conn, dry_run=args.dry_run)
     if do_serper:
         discover_via_serper(conn, dry_run=args.dry_run)
+    if do_tier3:
+        tier3_digest(conn, dry_run=args.dry_run)
     summarize(conn)
     conn.close()
 

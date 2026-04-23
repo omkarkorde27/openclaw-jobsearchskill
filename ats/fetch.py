@@ -17,10 +17,12 @@ from .base import Job
 log = logging.getLogger("scout.ats")
 
 TIER1 = ("greenhouse", "lever", "ashby", "workday")
+TIER2 = ("smartrecruiters", "workable", "breezy")
+DAILY = TIER1 + TIER2
 
 
 def fetch_all_ats(conn: sqlite3.Connection,
-                  platforms: Iterable[str] = TIER1,
+                  platforms: Iterable[str] = DAILY,
                   sleep_s: float = 0.3) -> list[Job]:
     plats = tuple(platforms)
     placeholders = ",".join(["?"] * len(plats))

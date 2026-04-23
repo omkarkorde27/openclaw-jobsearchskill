@@ -58,20 +58,18 @@ logging.basicConfig(
 log = logging.getLogger("scout")
 
 # ═════════════════════════════════════════════════════════════════════════════
-# ATS DOMAINS — platforms still queried via Serper.
-# Tier-1 (Greenhouse/Lever/Ashby/Workday) cut over to native ATS APIs in
-# Phase 3 and are fetched by fetch_all_ats() instead.
+# ATS DOMAINS — Tier-3 platforms with no practical native API.
+# After Phase 4 these are not polled daily; `discovery.py` hits them weekly.
+# Tier 1+2 (greenhouse/lever/ashby/workday + smartrecruiters/workable/breezy)
+# use native APIs via fetch_all_ats().
 # ═════════════════════════════════════════════════════════════════════════════
 
 ATS_DOMAINS = [
-    {"domain": "jobs.smartrecruiters.com",   "platform": "SmartRecruiters"},
     {"domain": "jobs.jobvite.com",           "platform": "Jobvite"},
     {"domain": "applytojob.com",             "platform": "JazzHR"},
     {"domain": "taleo.net",                  "platform": "Taleo"},
     {"domain": "icims.com",                  "platform": "iCIMS"},
     {"domain": "workforcenow.adp.com",       "platform": "ADP"},
-    {"domain": "breezy.hr",                  "platform": "Breezy"},
-    {"domain": "workable.com",               "platform": "Workable"},
 ]
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -875,57 +873,27 @@ def shadow_compare(conn: sqlite3.Connection, score_fn, serper_matches: list[dict
 
 
 # ═════════════════════════════════════════════════════════════════════════════
-# MAIN
+# SHARED PIPELINE (reused by daily run() and weekly discovery.py)
 # ═════════════════════════════════════════════════════════════════════════════
 
-def run(dry_run: bool = False, reset: bool = False, shadow: bool = False):
-    log.info("═══ Job Scout v5 starting ═══")
-
-    if not SERPER_KEY:
-        log.error(
-            "SERPER_API_KEY is not set.\n"
-            "1. Go to: https://serper.dev\n"
-            "2. Sign up (free tier: 2,500 queries)\n"
-            "3. Copy your API key from the dashboard\n"
-            "4. Run: export SERPER_API_KEY='your_key_here'"
-        )
-        sys.exit(1)
-
-    conn     = init_db(reset=reset)
-    since    = load_last_run() if not reset else CUTOFF_DATE
-    score_fn = build_scorer(load_resume())
-
-    db_count_before = conn.execute("SELECT COUNT(*) FROM seen_jobs").fetchone()[0]
-    log.info(f"DB contains {db_count_before} seen jobs")
-    log.info(f"Fetching jobs posted since: {since.strftime('%Y-%m-%d %H:%M UTC')}")
-
-    # ── Tier-1: native ATS APIs (Greenhouse/Lever/Ashby/Workday) ──
-    from ats.fetch import fetch_all_ats, job_to_dict
-    try:
-        ats_raw = fetch_all_ats(conn)
-    except Exception as e:
-        log.error(f"[ats] fetch failed entirely: {e}")
-        ats_raw = []
-    ats_jobs = [job_to_dict(j) for j in ats_raw]
-
-    # ── Tier-2/3: Serper for platforms without a cheap native API ──
-    serper_jobs = fetch_all_serper()
-    log.info(f"Feed sizes — ats:{len(ats_jobs)} serper:{len(serper_jobs)}")
-
-    all_jobs = ats_jobs + serper_jobs
-    log.info(f"Total jobs before filtering: {len(all_jobs)}")
-
-    # ── Dedup by URL-based job_id ──
+def process_and_send(
+    jobs: list[dict],
+    conn: sqlite3.Connection,
+    score_fn,
+    since: datetime,
+    dry_run: bool = False,
+) -> tuple[list[dict], list[dict], dict]:
+    """Dedup → filter → score → dedup-vs-DB → digest → Telegram.
+    Returns (new_matches, unique_jobs, stats)."""
     seen_ids: set[str] = set()
     unique_jobs: list[dict] = []
-    for j in all_jobs:
+    for j in jobs:
         if j["id"] not in seen_ids:
             seen_ids.add(j["id"])
             unique_jobs.append(j)
-    collisions = len(all_jobs) - len(unique_jobs)
+    collisions = len(jobs) - len(unique_jobs)
     log.info(f"After dedup: {len(unique_jobs)} unique ({collisions} collisions)")
 
-    # ── Filter + score ──
     new_matches: list[dict] = []
     stats = {"date": 0, "title": 0, "location": 0, "sponsor": 0, "exp": 0, "seen": 0, "score": 0}
 
@@ -933,33 +901,25 @@ def run(dry_run: bool = False, reset: bool = False, shadow: bool = False):
         if not passes_date(job["posted_ts"], since):
             stats["date"] += 1
             continue
-
         if not passes_title(job["title"]):
             stats["title"] += 1
             continue
-
         if not passes_location(job):
             stats["location"] += 1
             continue
-
         if not passes_sponsorship(job["description"]):
             stats["sponsor"] += 1
             continue
-
         if not passes_experience(job):
             stats["exp"] += 1
             continue
-
         if not is_new(conn, job):
             stats["seen"] += 1
             continue
-
-        combined = job["title"] + " " + job["description"]
-        s = score_fn(combined)
+        s = score_fn(job["title"] + " " + job["description"])
         if s < MIN_SCORE:
             stats["score"] += 1
             continue
-
         job["score"] = s
         if not dry_run:
             mark_seen(conn, job)
@@ -975,10 +935,42 @@ def run(dry_run: bool = False, reset: bool = False, shadow: bool = False):
     new_matches = new_matches[:MAX_DIGEST]
     log.info(f"New matches to send: {len(new_matches)}")
 
-    # ── Send digest ──
     for chunk in build_digest(new_matches, since):
         tg_send(chunk, dry_run=dry_run)
         time.sleep(0.5)
+
+    return new_matches, unique_jobs, stats
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+# MAIN
+# ═════════════════════════════════════════════════════════════════════════════
+
+def run(dry_run: bool = False, reset: bool = False, shadow: bool = False):
+    log.info("═══ Job Scout v5 starting ═══")
+
+    conn     = init_db(reset=reset)
+    since    = load_last_run() if not reset else CUTOFF_DATE
+    score_fn = build_scorer(load_resume())
+
+    db_count_before = conn.execute("SELECT COUNT(*) FROM seen_jobs").fetchone()[0]
+    log.info(f"DB contains {db_count_before} seen jobs")
+    log.info(f"Fetching jobs posted since: {since.strftime('%Y-%m-%d %H:%M UTC')}")
+
+    # ── Daily = native ATS APIs only (Tier 1 + Tier 2). ──
+    # Tier 3 (iCIMS/Taleo/Jobvite/JazzHR/ADP) runs weekly from discovery.py.
+    from ats.fetch import fetch_all_ats, job_to_dict
+    try:
+        ats_raw = fetch_all_ats(conn)
+    except Exception as e:
+        log.error(f"[ats] fetch failed entirely: {e}")
+        ats_raw = []
+    all_jobs = [job_to_dict(j) for j in ats_raw]
+    log.info(f"Total jobs before filtering: {len(all_jobs)}")
+
+    new_matches, unique_jobs, stats = process_and_send(
+        all_jobs, conn, score_fn, since, dry_run=dry_run,
+    )
 
     # ── Save run timestamp ──
     if not dry_run:
@@ -1001,8 +993,7 @@ def run(dry_run: bool = False, reset: bool = False, shadow: bool = False):
     conn.close()
 
     log.info("═══ Run Summary ═══")
-    log.info(f"  Tier-1 ATS raw:        {len(ats_jobs)}")
-    log.info(f"  Serper raw:            {len(serper_jobs)}")
+    log.info(f"  ATS-API raw:           {len(all_jobs)}")
     log.info(f"  After URL dedup:       {len(unique_jobs)}")
     log.info(f"  Dropped — date:        {stats['date']}")
     log.info(f"  Dropped — title:       {stats['title']}")
