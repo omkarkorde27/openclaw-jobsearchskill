@@ -4318,3 +4318,203 @@
 2026-04-23 14:06:31,697 INFO       DB size (before/after): 170 / 173
 2026-04-23 14:06:31,697 INFO     ═══ Done ═══
 2026-04-23 14:06:31,697 INFO     ═══ Done ═══
+2026-04-24 14:00:08,338 INFO     ═══ Job Scout v5 starting ═══
+2026-04-24 14:00:08,338 INFO     ═══ Job Scout v5 starting ═══
+2026-04-24 14:00:08,348 INFO     Resume loaded (4024 chars)
+2026-04-24 14:00:08,348 INFO     Resume loaded (4024 chars)
+2026-04-24 14:00:08,370 INFO     DB contains 173 seen jobs
+2026-04-24 14:00:08,370 INFO     DB contains 173 seen jobs
+2026-04-24 14:00:08,371 INFO     Fetching jobs posted since: 2026-04-23 14:06 UTC
+2026-04-24 14:00:08,371 INFO     Fetching jobs posted since: 2026-04-23 14:06 UTC
+2026-04-24 14:00:08,403 INFO     [ats] polling 281 companies across 7 platforms
+2026-04-24 14:00:08,403 INFO     [ats] polling 281 companies across 7 platforms
+2026-04-24 14:06:44,072 INFO     [ats] fetched 26444 jobs total: {'ashby': 2605, 'breezy': 695, 'greenhouse': 6381, 'lever': 2386, 'smartrecruiters': 7989, 'workable': 4831, 'workday': 1557}
+2026-04-24 14:06:44,072 INFO     [ats] fetched 26444 jobs total: {'ashby': 2605, 'breezy': 695, 'greenhouse': 6381, 'lever': 2386, 'smartrecruiters': 7989, 'workable': 4831, 'workday': 1557}
+2026-04-24 14:06:44,072 WARNING  [ats] failures by platform: {'ashby': 2, 'lever': 5, 'workable': 3}
+2026-04-24 14:06:44,072 WARNING  [ats] failures by platform: {'ashby': 2, 'lever': 5, 'workable': 3}
+2026-04-24 14:06:44,094 INFO     Total jobs before filtering: 26444
+2026-04-24 14:06:44,094 INFO     Total jobs before filtering: 26444
+2026-04-24 14:06:44,101 INFO     After dedup: 23523 unique (2921 collisions)
+2026-04-24 14:06:44,101 INFO     After dedup: 23523 unique (2921 collisions)
+2026-04-24 14:06:44,155 INFO     Filter stats — date:21743 title:1746 location:6 sponsor:0 exp:13 seen:13 score:0
+2026-04-24 14:06:44,155 INFO     Filter stats — date:21743 title:1746 location:6 sponsor:0 exp:13 seen:13 score:0
+2026-04-24 14:06:44,155 INFO     New matches to send: 2
+2026-04-24 14:06:44,155 INFO     New matches to send: 2
+2026-04-24 14:06:45,072 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-24 14:06:45,072 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-24 14:06:45,073 INFO     ═══ Run Summary ═══
+2026-04-24 14:06:45,073 INFO     ═══ Run Summary ═══
+2026-04-24 14:06:45,073 INFO       ATS-API raw:           26444
+2026-04-24 14:06:45,073 INFO       ATS-API raw:           26444
+2026-04-24 14:06:45,073 INFO       After URL dedup:       23523
+2026-04-24 14:06:45,073 INFO       After URL dedup:       23523
+2026-04-24 14:06:45,073 INFO       Dropped — date:        21743
+2026-04-24 14:06:45,073 INFO       Dropped — date:        21743
+2026-04-24 14:06:45,073 INFO       Dropped — title:       1746
+2026-04-24 14:06:45,073 INFO       Dropped — title:       1746
+2026-04-24 14:06:45,073 INFO       Dropped — location:    6  (US filter)
+2026-04-24 14:06:45,073 INFO       Dropped — location:    6  (US filter)
+2026-04-24 14:06:45,073 INFO       Dropped — sponsorship: 0
+2026-04-24 14:06:45,073 INFO       Dropped — sponsorship: 0
+2026-04-24 14:06:45,073 INFO       Dropped — experience:  13
+2026-04-24 14:06:45,073 INFO       Dropped — experience:  13
+2026-04-24 14:06:45,073 INFO       Dropped — seen in DB:  13
+2026-04-24 14:06:45,073 INFO       Dropped — seen in DB:  13
+2026-04-24 14:06:45,073 INFO       Dropped — low score:   0
+2026-04-24 14:06:45,073 INFO       Dropped — low score:   0
+2026-04-24 14:06:45,073 INFO       Sent to Telegram:      2
+2026-04-24 14:06:45,073 INFO       Sent to Telegram:      2
+2026-04-24 14:06:45,073 INFO       DB size (before/after): 173 / 175
+2026-04-24 14:06:45,073 INFO       DB size (before/after): 173 / 175
+2026-04-24 14:06:45,073 INFO     ═══ Done ═══
+2026-04-24 14:06:45,073 INFO     ═══ Done ═══
+2026-04-25 14:00:07,674 INFO     ═══ Job Scout v5 starting ═══
+2026-04-25 14:00:07,674 INFO     ═══ Job Scout v5 starting ═══
+2026-04-25 14:00:07,684 INFO     Resume loaded (4024 chars)
+2026-04-25 14:00:07,684 INFO     Resume loaded (4024 chars)
+2026-04-25 14:00:07,700 INFO     DB contains 175 seen jobs
+2026-04-25 14:00:07,700 INFO     DB contains 175 seen jobs
+2026-04-25 14:00:07,701 INFO     Fetching jobs posted since: 2026-04-24 14:06 UTC
+2026-04-25 14:00:07,701 INFO     Fetching jobs posted since: 2026-04-24 14:06 UTC
+2026-04-25 14:00:07,723 INFO     [ats] polling 281 companies across 7 platforms
+2026-04-25 14:00:07,723 INFO     [ats] polling 281 companies across 7 platforms
+2026-04-25 14:05:17,411 INFO     [ats] fetched 25942 jobs total: {'ashby': 2609, 'breezy': 699, 'greenhouse': 6390, 'lever': 2321, 'smartrecruiters': 7693, 'workable': 4812, 'workday': 1418}
+2026-04-25 14:05:17,411 INFO     [ats] fetched 25942 jobs total: {'ashby': 2609, 'breezy': 699, 'greenhouse': 6390, 'lever': 2321, 'smartrecruiters': 7693, 'workable': 4812, 'workday': 1418}
+2026-04-25 14:05:17,411 WARNING  [ats] failures by platform: {'ashby': 2, 'lever': 5, 'workable': 3}
+2026-04-25 14:05:17,411 WARNING  [ats] failures by platform: {'ashby': 2, 'lever': 5, 'workable': 3}
+2026-04-25 14:05:17,435 INFO     Total jobs before filtering: 25942
+2026-04-25 14:05:17,435 INFO     Total jobs before filtering: 25942
+2026-04-25 14:05:17,442 INFO     After dedup: 23040 unique (2902 collisions)
+2026-04-25 14:05:17,442 INFO     After dedup: 23040 unique (2902 collisions)
+2026-04-25 14:05:17,532 INFO     Filter stats — date:19008 title:4006 location:9 sponsor:0 exp:10 seen:1 score:0
+2026-04-25 14:05:17,532 INFO     Filter stats — date:19008 title:4006 location:9 sponsor:0 exp:10 seen:1 score:0
+2026-04-25 14:05:17,532 INFO     New matches to send: 6
+2026-04-25 14:05:17,532 INFO     New matches to send: 6
+2026-04-25 14:05:18,442 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-25 14:05:18,442 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-25 14:05:18,442 INFO     ═══ Run Summary ═══
+2026-04-25 14:05:18,442 INFO     ═══ Run Summary ═══
+2026-04-25 14:05:18,443 INFO       ATS-API raw:           25942
+2026-04-25 14:05:18,443 INFO       ATS-API raw:           25942
+2026-04-25 14:05:18,443 INFO       After URL dedup:       23040
+2026-04-25 14:05:18,443 INFO       After URL dedup:       23040
+2026-04-25 14:05:18,443 INFO       Dropped — date:        19008
+2026-04-25 14:05:18,443 INFO       Dropped — date:        19008
+2026-04-25 14:05:18,443 INFO       Dropped — title:       4006
+2026-04-25 14:05:18,443 INFO       Dropped — title:       4006
+2026-04-25 14:05:18,443 INFO       Dropped — location:    9  (US filter)
+2026-04-25 14:05:18,443 INFO       Dropped — location:    9  (US filter)
+2026-04-25 14:05:18,443 INFO       Dropped — sponsorship: 0
+2026-04-25 14:05:18,443 INFO       Dropped — sponsorship: 0
+2026-04-25 14:05:18,443 INFO       Dropped — experience:  10
+2026-04-25 14:05:18,443 INFO       Dropped — experience:  10
+2026-04-25 14:05:18,443 INFO       Dropped — seen in DB:  1
+2026-04-25 14:05:18,443 INFO       Dropped — seen in DB:  1
+2026-04-25 14:05:18,443 INFO       Dropped — low score:   0
+2026-04-25 14:05:18,443 INFO       Dropped — low score:   0
+2026-04-25 14:05:18,444 INFO       Sent to Telegram:      6
+2026-04-25 14:05:18,444 INFO       Sent to Telegram:      6
+2026-04-25 14:05:18,444 INFO       DB size (before/after): 175 / 181
+2026-04-25 14:05:18,444 INFO       DB size (before/after): 175 / 181
+2026-04-25 14:05:18,444 INFO     ═══ Done ═══
+2026-04-25 14:05:18,444 INFO     ═══ Done ═══
+2026-04-26 14:00:07,369 INFO     ═══ Job Scout v5 starting ═══
+2026-04-26 14:00:07,369 INFO     ═══ Job Scout v5 starting ═══
+2026-04-26 14:00:07,381 INFO     Resume loaded (4024 chars)
+2026-04-26 14:00:07,381 INFO     Resume loaded (4024 chars)
+2026-04-26 14:00:07,402 INFO     DB contains 181 seen jobs
+2026-04-26 14:00:07,402 INFO     DB contains 181 seen jobs
+2026-04-26 14:00:07,403 INFO     Fetching jobs posted since: 2026-04-25 14:05 UTC
+2026-04-26 14:00:07,403 INFO     Fetching jobs posted since: 2026-04-25 14:05 UTC
+2026-04-26 14:00:07,433 INFO     [ats] polling 281 companies across 7 platforms
+2026-04-26 14:00:07,433 INFO     [ats] polling 281 companies across 7 platforms
+2026-04-26 14:05:12,992 INFO     [ats] fetched 25505 jobs total: {'ashby': 2609, 'breezy': 699, 'greenhouse': 6387, 'lever': 2319, 'smartrecruiters': 7683, 'workable': 4871, 'workday': 937}
+2026-04-26 14:05:12,992 INFO     [ats] fetched 25505 jobs total: {'ashby': 2609, 'breezy': 699, 'greenhouse': 6387, 'lever': 2319, 'smartrecruiters': 7683, 'workable': 4871, 'workday': 937}
+2026-04-26 14:05:12,992 WARNING  [ats] failures by platform: {'ashby': 2, 'lever': 5, 'workable': 3}
+2026-04-26 14:05:12,992 WARNING  [ats] failures by platform: {'ashby': 2, 'lever': 5, 'workable': 3}
+2026-04-26 14:05:13,024 INFO     Total jobs before filtering: 25505
+2026-04-26 14:05:13,024 INFO     Total jobs before filtering: 25505
+2026-04-26 14:05:13,032 INFO     After dedup: 22556 unique (2949 collisions)
+2026-04-26 14:05:13,032 INFO     After dedup: 22556 unique (2949 collisions)
+2026-04-26 14:05:13,052 INFO     Filter stats — date:22484 title:72 location:0 sponsor:0 exp:0 seen:0 score:0
+2026-04-26 14:05:13,052 INFO     Filter stats — date:22484 title:72 location:0 sponsor:0 exp:0 seen:0 score:0
+2026-04-26 14:05:13,052 INFO     New matches to send: 0
+2026-04-26 14:05:13,052 INFO     New matches to send: 0
+2026-04-26 14:05:13,944 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-26 14:05:13,944 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-26 14:05:13,944 INFO     ═══ Run Summary ═══
+2026-04-26 14:05:13,944 INFO     ═══ Run Summary ═══
+2026-04-26 14:05:13,945 INFO       ATS-API raw:           25505
+2026-04-26 14:05:13,945 INFO       ATS-API raw:           25505
+2026-04-26 14:05:13,945 INFO       After URL dedup:       22556
+2026-04-26 14:05:13,945 INFO       After URL dedup:       22556
+2026-04-26 14:05:13,945 INFO       Dropped — date:        22484
+2026-04-26 14:05:13,945 INFO       Dropped — date:        22484
+2026-04-26 14:05:13,945 INFO       Dropped — title:       72
+2026-04-26 14:05:13,945 INFO       Dropped — title:       72
+2026-04-26 14:05:13,945 INFO       Dropped — location:    0  (US filter)
+2026-04-26 14:05:13,945 INFO       Dropped — location:    0  (US filter)
+2026-04-26 14:05:13,945 INFO       Dropped — sponsorship: 0
+2026-04-26 14:05:13,945 INFO       Dropped — sponsorship: 0
+2026-04-26 14:05:13,945 INFO       Dropped — experience:  0
+2026-04-26 14:05:13,945 INFO       Dropped — experience:  0
+2026-04-26 14:05:13,945 INFO       Dropped — seen in DB:  0
+2026-04-26 14:05:13,945 INFO       Dropped — seen in DB:  0
+2026-04-26 14:05:13,945 INFO       Dropped — low score:   0
+2026-04-26 14:05:13,945 INFO       Dropped — low score:   0
+2026-04-26 14:05:13,945 INFO       Sent to Telegram:      0
+2026-04-26 14:05:13,945 INFO       Sent to Telegram:      0
+2026-04-26 14:05:13,945 INFO       DB size (before/after): 181 / 181
+2026-04-26 14:05:13,945 INFO       DB size (before/after): 181 / 181
+2026-04-26 14:05:13,945 INFO     ═══ Done ═══
+2026-04-26 14:05:13,945 INFO     ═══ Done ═══
+2026-04-27 14:00:08,351 INFO     ═══ Job Scout v5 starting ═══
+2026-04-27 14:00:08,351 INFO     ═══ Job Scout v5 starting ═══
+2026-04-27 14:00:08,360 INFO     Resume loaded (4024 chars)
+2026-04-27 14:00:08,360 INFO     Resume loaded (4024 chars)
+2026-04-27 14:00:08,379 INFO     DB contains 181 seen jobs
+2026-04-27 14:00:08,379 INFO     DB contains 181 seen jobs
+2026-04-27 14:00:08,380 INFO     Fetching jobs posted since: 2026-04-26 14:05 UTC
+2026-04-27 14:00:08,380 INFO     Fetching jobs posted since: 2026-04-26 14:05 UTC
+2026-04-27 14:00:08,406 INFO     [ats] polling 281 companies across 7 platforms
+2026-04-27 14:00:08,406 INFO     [ats] polling 281 companies across 7 platforms
+2026-04-27 14:07:21,033 INFO     [ats] fetched 25375 jobs total: {'ashby': 2451, 'breezy': 692, 'greenhouse': 6365, 'lever': 2319, 'smartrecruiters': 7684, 'workable': 4790, 'workday': 1074}
+2026-04-27 14:07:21,033 INFO     [ats] fetched 25375 jobs total: {'ashby': 2451, 'breezy': 692, 'greenhouse': 6365, 'lever': 2319, 'smartrecruiters': 7684, 'workable': 4790, 'workday': 1074}
+2026-04-27 14:07:21,034 WARNING  [ats] failures by platform: {'ashby': 3, 'lever': 5, 'workable': 3}
+2026-04-27 14:07:21,034 WARNING  [ats] failures by platform: {'ashby': 3, 'lever': 5, 'workable': 3}
+2026-04-27 14:07:21,123 INFO     Total jobs before filtering: 25375
+2026-04-27 14:07:21,123 INFO     Total jobs before filtering: 25375
+2026-04-27 14:07:21,130 INFO     After dedup: 22442 unique (2933 collisions)
+2026-04-27 14:07:21,130 INFO     After dedup: 22442 unique (2933 collisions)
+2026-04-27 14:07:21,191 INFO     Filter stats — date:21695 title:714 location:22 sponsor:0 exp:7 seen:2 score:0
+2026-04-27 14:07:21,191 INFO     Filter stats — date:21695 title:714 location:22 sponsor:0 exp:7 seen:2 score:0
+2026-04-27 14:07:21,191 INFO     New matches to send: 2
+2026-04-27 14:07:21,191 INFO     New matches to send: 2
+2026-04-27 14:07:22,117 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-27 14:07:22,117 INFO     State saved → /home/omkar/job_scout_v4/last_run.json
+2026-04-27 14:07:22,117 INFO     ═══ Run Summary ═══
+2026-04-27 14:07:22,117 INFO     ═══ Run Summary ═══
+2026-04-27 14:07:22,117 INFO       ATS-API raw:           25375
+2026-04-27 14:07:22,117 INFO       ATS-API raw:           25375
+2026-04-27 14:07:22,117 INFO       After URL dedup:       22442
+2026-04-27 14:07:22,117 INFO       After URL dedup:       22442
+2026-04-27 14:07:22,117 INFO       Dropped — date:        21695
+2026-04-27 14:07:22,117 INFO       Dropped — date:        21695
+2026-04-27 14:07:22,117 INFO       Dropped — title:       714
+2026-04-27 14:07:22,117 INFO       Dropped — title:       714
+2026-04-27 14:07:22,117 INFO       Dropped — location:    22  (US filter)
+2026-04-27 14:07:22,117 INFO       Dropped — location:    22  (US filter)
+2026-04-27 14:07:22,118 INFO       Dropped — sponsorship: 0
+2026-04-27 14:07:22,118 INFO       Dropped — sponsorship: 0
+2026-04-27 14:07:22,118 INFO       Dropped — experience:  7
+2026-04-27 14:07:22,118 INFO       Dropped — experience:  7
+2026-04-27 14:07:22,118 INFO       Dropped — seen in DB:  2
+2026-04-27 14:07:22,118 INFO       Dropped — seen in DB:  2
+2026-04-27 14:07:22,118 INFO       Dropped — low score:   0
+2026-04-27 14:07:22,118 INFO       Dropped — low score:   0
+2026-04-27 14:07:22,118 INFO       Sent to Telegram:      2
+2026-04-27 14:07:22,118 INFO       Sent to Telegram:      2
+2026-04-27 14:07:22,118 INFO       DB size (before/after): 181 / 183
+2026-04-27 14:07:22,118 INFO       DB size (before/after): 181 / 183
+2026-04-27 14:07:22,118 INFO     ═══ Done ═══
+2026-04-27 14:07:22,118 INFO     ═══ Done ═══
